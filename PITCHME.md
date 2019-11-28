@@ -13,7 +13,7 @@
 
 ![image2](https://scontent.fkkc2-1.fna.fbcdn.net/v/t31.0-8/s960x960/24955542_1670215819696026_9178157145177340118_o.jpg?_nc_cat=101&_nc_eui2=AeFvc2mMMzwugTaX9AvLlnPZmoHUI_FvhChUFjg-e_z_KObnsj5xUTD3gR2O619ATsW4hmVvrBk-6PLJ_TgfeTyW65j8dgc56jGLPsBKDnjHRg&_nc_ohc=b2ch0gckDK8AQkqaBe9x2UwBQkNuYVqSUDNSMgfKZMfQZF0Vw14ChlimA&_nc_ht=scontent.fkkc2-1.fna&oh=5072f78c9505ee2ba51f34e68867dded&oe=5E81B654)
 ---
-* Sหน้าร้อน
+* หน้าร้อน
 
 ![hot](https://uk.toluna.com/dpolls_images/2018/04/02/418611d6-3edc-46a6-99f1-fba99f5c72ce.jpg)
 ---
