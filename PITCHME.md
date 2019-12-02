@@ -12,7 +12,7 @@
 ![SAMBA Deployment](https://f.ptcdn.info/683/004/000/1367335060-1362392742-o.gif)
 
 ```c# 
-console.whit("you father died");
+Console.WriteLine("you father died");
 ```
 
 +++
