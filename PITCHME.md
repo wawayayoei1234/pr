@@ -13,4 +13,5 @@
 - 4.ซื้อหวยครั้งเเรก
 - 5.ซื้อไทยครั้งเเรก 
 ---
-# โดนด่าครั้งเเรก #
+## โดนด่าครั้งเเรก 
+![SAMBA Deployment](https://scontent.fbkk22-2.fna.fbcdn.net/v/t1.15752-9/77341854_1397169560443359_7087607529244459008_n.png?_nc_cat=109&_nc_eui2=AeGxdKMlvv5YW_XpA99Qs21Tnxz8Qk02AKH56Bvtg5XbPBmLOmoINRR2EG9He5vxMKvkQE7ANnxszqHZkZB_IL1UrUtf4BiCvvOkYN7EM9l0VA&_nc_ohc=3DS05x93Mz4AQkJgQQk1p2WoMiVDMBkGe_3xCM6BZaa6gc6bzbgTS3NUw&_nc_ht=scontent.fbkk22-2.fna&oh=fdc9e7282a964cf17665f04d4bd77a34&oe=5E74AFFC)
