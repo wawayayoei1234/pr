@@ -5,11 +5,13 @@
 ![name](https://scontent.fkkc2-1.fna.fbcdn.net/v/t1.15752-9/78326865_601446323934668_2973275936260096000_n.png?_nc_cat=111&_nc_eui2=AeHlNvPbKvrAMgvKlnRZDDe12lTIimEc0WbdOiqXBfNaFxu9FehqScipe1NGs3ajBJRga0AGdbb3RTt8zC9PWXtYdBnSxNqM1ECie1I0o3bvFQ&_nc_ohc=usgbaJE-oE4AQlDxBqiqWLqLdKEPhHbYW-Oahsym5_A3Z7m4MvwJF0BDA&_nc_ht=scontent.fkkc2-1.fna&oh=cc8c007d8fc9a55d2b4dafba2f9702b3&oe=5E7CC1E9)
 
 ---
-# BKK 1st Time 
- >>= *1.โดนด่าครั้งเเรก*
- ## 2.สั่งอาหารไทยครั้งเเรก
- ## 3.เจอผีครั้งเเรก
- ## 4.ซื้อหวยครั้งเเรก
- ## 5.ซื้อไทยครั้งเเรก
+# BKK 1st Time
+@snap[liftpoint list-content-concise span-100] @size1.5em 
+  >*1.โดนด่าครั้งเเรก*
+  *2.สั่งอาหารไทยครั้งเเรก*
+  *3.เจอผีครั้งเเรก*
+  *4.ซื้อหวยครั้งเเรก*
+  *5.ซื้อไทยครั้งเเรก*
+  @snapend
 ---
 # โดนด่าครั้งเเรก #
