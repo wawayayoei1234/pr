@@ -2,11 +2,7 @@
 layout : center
 
 # Look-and-Feel
-
-theme : night
-theme-override : assets/css/PITCHME.css
-highlight : ir-black
-
+background-color : red 
 # Behavior
 transition : none
 published : true
