@@ -6,12 +6,12 @@
 
 ---
 # BKK 1st Time
-@snap[liftpoint list-content-concise span-100] @size1.5em 
+@snap[leftpoint list-content-concise span-100] @size1.5em 
   >*1.โดนด่าครั้งเเรก*
   *2.สั่งอาหารไทยครั้งเเรก*
   *3.เจอผีครั้งเเรก*
   *4.ซื้อหวยครั้งเเรก*
   *5.ซื้อไทยครั้งเเรก*
-  @snapend
+   @snapend
 ---
 # โดนด่าครั้งเเรก #
