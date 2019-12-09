@@ -1,31 +1,129 @@
-# BKK 1st Time #
----
-![name](https://scontent.fkkc2-1.fna.fbcdn.net/v/t1.15752-9/78326865_601446323934668_2973275936260096000_n.png?_nc_cat=111&_nc_eui2=AeHlNvPbKvrAMgvKlnRZDDe12lTIimEc0WbdOiqXBfNaFxu9FehqScipe1NGs3ajBJRga0AGdbb3RTt8zC9PWXtYdBnSxNqM1ECie1I0o3bvFQ&_nc_ohc=usgbaJE-oE4AQlDxBqiqWLqLdKEPhHbYW-Oahsym5_A3Z7m4MvwJF0BDA&_nc_ht=scontent.fkkc2-1.fna&oh=cc8c007d8fc9a55d2b4dafba2f9702b3&oe=5E7CC1E9)
+---?color=linear-gradient(to top left, #bdc3c7, #2c3e50)
+# @color[orange](Markdown)
 
----
+---?color=linear-gradient(180deg, #003366 25%, white 25%)
+@snap[north]
+## @color[orange](Markdown)
+@snapend
 
-## โดนด่าครั้งเเรก 
-![SAMBA Deployment](https://scontent.fbkk22-2.fna.fbcdn.net/v/t1.15752-9/77341854_1397169560443359_7087607529244459008_n.png?_nc_cat=109&_nc_eui2=AeGxdKMlvv5YW_XpA99Qs21Tnxz8Qk02AKH56Bvtg5XbPBmLOmoINRR2EG9He5vxMKvkQE7ANnxszqHZkZB_IL1UrUtf4BiCvvOkYN7EM9l0VA&_nc_ohc=3DS05x93Mz4AQkJgQQk1p2WoMiVDMBkGe_3xCM6BZaa6gc6bzbgTS3NUw&_nc_ht=scontent.fbkk22-2.fna&oh=fdc9e7282a964cf17665f04d4bd77a34&oe=5E74AFFC)
+@color[black](Mark down คือ ภาษาคอมพิวเตอร์ ที่มนุษย์สามารถอ่านเข้าใจได้ง่าย)
+@color[black](และด้วยความง่ายนี้มันก็สามารถแปลงกลับมาเป็นภาษาอื่นๆได้ง่ายด้วยกันเช่น HTML, XHTML และด้วยความง่ายเช่นนี้จึงมีเจ้าอื่นนำไป Customize)@color[black](ให้เป็นของตัวเองเช่น github ก็อาจจะเพิ่มพวก feature เข้าไปเช่น task list, mention และอื่นๆ)
 
-+++
-## you father died
-![SAMBA Deployment](https://f.ptcdn.info/683/004/000/1367335060-1362392742-o.gif)
+---?color=linear-gradient(to top left, #bdc3c7, #2c3e50)
 
-```c# 
-Console.WriteLine("you father died");
+## @color[orange](เริ่มเขียนMarkdown)
+
+---?color=linear-gradient(100deg, #003366 50%, #E8E8E8 50%)
+
+@snap[west span-40 text-center]
+
+## @color[white](หัวเรื่อง)
+@color[white](@fa[quote-left quote-graphql](การเขียนหัวเรื่องในขนาดต่างๆ))
+![GRAPHQL](https://sv1.picz.in.th/images/2019/12/06/igbSyS.png)
+@snapend
+
+@snap[north-east span-60 text-08]
+# @color[black](หัวเรื่อง 1)
+## @color[black](หัวเรื่อง 2)
+### @color[black](หัวเรื่อง 3)
+#### @color[black](หัวเรื่อง 4)
+##### @color[black](หัวเรื่อง 5)
+###### @color[black](หัวเรื่อง 6)
+@snapend
+
+---?color=linear-gradient(90deg, white 50%, black 50%)
+
+@snap[north-west span-50]
+### @color[black](**รูปแบบอักษรประกอบไปด้วย**)
+@snapend
+
+@snap[west span-50]
+``` 
+        ตัวเอียง     _ตัวเอียง_     
+        ตัวหนา     **ตัวหนา**    
+        ขีดฆ่า       ~~ขีดฆ่า~~
+
 ```
+@snapend   
 
-+++
-<iframe width="853" height="480" src="https://www.youtube.com/embed/ve0WYVb-4po" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+@snap[east span-30 text-08]
+@box[bg-green](**สวัสดี**)
+@snapend
 
----?image=https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-gray-geometric-background-material-image_274669.jpg
-#### @color[black](คลิป)
-<iframe width="360" height="240" src="https://www.youtube.com/embed/WfSqZVGCCyw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+@snap[north-east span-30 text-08]
+@box[bg-pink](_สวัสดี_)
+@snapend
 
-#### @color[black](เนื้อเรื่อง)
+@snap[south-east span-30 text-08]
+@box[bg-gold](~~สวัสดี~~)
+@snapend
 
- @size[0.6em](@color[black](วันหนึ่งได้มี่คู่ชายหญิงเดินเข้าไปในปราสาทเพื่อล่าแวมไพร์แต่แวมไพร์ก็ไม่ได้โง่จนให้พวกนักล่าล่าได้ง่ายๆเลยทำการโจมตีพวกนักล่าจนใกล้ชนะแต่พวกนักล่ามีสกิลพระเอกนางเอกเลยสามารถเอาชนะแวมไพร์ได้))
-```c#
-Console.WriteLine("Van Helsing");
-```
+---?color=linear-gradient(to top left, #bdc3c7, #2c3e50)
 
+@snap[north span-50]
+
+### @color[orange](**ลิสต์ list**)
+#### 
+มีทังหมด 2 แบบประกอบด้วย
+#### 
+1.ลิสต์แบบเรียงลำดับ (Ordered List)
+#### 
+2.ลิสต์แบบไม่เรียงลำดับ (Unordered List)
+
+@snapend
+---?color=linear-gradient(80deg, white 50%, black 50%)
+
+@snap[north-west span-50]
+### @color[black](**ลิสต์แบบเรียงลำดับ**)
+@snapend
+
+@snap[west span-50]
+
+#### @color[black](**Syntax**)
+
+@color[black](1. สวัสดี)
+#### 
+@color[black](2. ฉัน)
+#### 
+@color[black](3. ชื่อ)
+#### 
+@color[black](4. อะไร)
+   @snapend
+
+@snap[east span-50]
+
+![](https://sv1.picz.in.th/images/2019/12/05/iZFSgv.jpg)
+@snapend
+
+---?color=linear-gradient(90deg, white 50%, black 50%)
+
+@snap[north-west span-50]
+### @color[black](**ลิสต์แบบไม่เรียงลำดับ**)
+@snapend
+
+@snap[west- span-50]
+
+#### @color[black](**Syntax**)
+
+@color[black](- สวัสดี)
+#### 
+@color[black](* สวัสดี)
+
+
+@snapend
+
+@snap[south-east span-50]
+![](https://sv1.picz.in.th/images/2019/12/05/iZFYCE.jpg)
+@snapend
+
+---?color=linear-gradient(180deg, #2c3e50 52%, white 52%)
+
+## @color[orange](ใส่รูปภาพใน Markdown)
+
+**@color[orange](โค้ต)**
+
+    ![Google ](https://sv1.picz.in.th/images/2019/12/05/iZyaHz.jpg)
+
+**@color[orange](เเสดงผล)**
+
+## ![Google ](https://www.google.co.th/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png)
