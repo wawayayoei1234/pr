@@ -138,5 +138,5 @@
 
 **@color[orange](เเสดงผล)**
 
-### [leanpub ](https://leanpub.com/courses/leanpub/markdown1/read/1?published=true)
+### [Leanpub ](https://leanpub.com/courses/leanpub/markdown1/read/1?published=true)
 
