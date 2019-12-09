@@ -130,7 +130,7 @@
 
 ---?color=linear-gradient(180deg, #2c3e50 52%, white 52%)
 
-## @color[orange](ใส่รูปภาพใน Markdown)
+## @color[orange](ใส่linkใน Markdown)
 
 **@color[orange](โค้ต)**
 
