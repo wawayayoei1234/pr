@@ -127,3 +127,16 @@
 **@color[orange](เเสดงผล)**
 
 ## ![Google ](https://www.google.co.th/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png)
+
+---?color=linear-gradient(180deg, #2c3e50 52%, white 52%)
+
+## @color[orange](ใส่รูปภาพใน Markdown)
+
+**@color[orange](โค้ต)**
+
+    [Google ](https://sv1.picz.in.th/images/2019/12/05/iZyaHz.jpg)
+
+**@color[orange](เเสดงผล)**
+
+### [Google ](https://www.google.co.th/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png)
+
