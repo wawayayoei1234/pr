@@ -4,27 +4,18 @@
 
 ---
 
-## Agenda
-
-@ol
-* Basic `if` statement syntaxs
-* Ternary Operator
-* Demo
-@olend
-
+if( เงื่อนไข )
+{
+  // ทำใน block นี้ถ้าเงื่อนไขเป็นจริง
+}
 ---
-
-## Agenda
-
-@ol
-* if( เงื่อนไข )
-
-* if( เงื่อนไข )
-
-* Demo
-@olend
-
++++
+if( เงื่อนไข )
+{
+  // ทำใน block นี้ถ้าเงื่อนไขเป็นจริง
+}
+else
+{
+  // ทำใน block นี้ถ้าเงื่อนไขเป็นเท็จ
+}
 ---
-
-
-
