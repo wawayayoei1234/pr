@@ -19,13 +19,13 @@
 ## Example
 
 ```
-Normal cases
+
 if( เงื่อนไข )
 {
   // ทำใน block นี้ถ้าเงื่อนไขเป็นจริง
 }
 
-Alternative cases
+
 if( เงื่อนไข )
 {
   // ทำใน block นี้ถ้าเงื่อนไขเป็นจริง
