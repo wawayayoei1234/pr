@@ -1,12 +1,10 @@
 # Conditional Statements
-
+---
 ### If-Then-Else
 
----
 ```csharp
-if( เงื่อนไข )
-{
-  // ทำใน block นี้ถ้าเงื่อนไขเป็นจริง
+if (condition) {
+	// Do if the condition is true
 }
 ---
 +++
