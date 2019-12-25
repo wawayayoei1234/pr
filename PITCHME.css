@@ -1,0 +1,34 @@
+.reveal h1,
+.reveal h2,
+section.has-dark-background h2 {
+  color: rgb(235, 86, 27);
+  text-shadow: 2px 2px 5px red;
+}
+
+.reveal .slide-background-content {
+  background-color: rgb(7, 7, 7);
+}
+
+.hljs-comment {
+  color: rgb(18, 223, 18);
+}
+
+.hljs {
+  color: #ffffff;
+}
+
+section.has-dark-background {
+  color: #f26225;
+}
+.reveal{
+  color: #ffffff;
+}
+.reveal h3 {
+
+  color: #ffffff;
+}
+/*สีพื้นหลัง*/
+/*.reveal pre code,
+.reveal pre code {
+background-color:rgba(255, 255, 255, 0.76);
+}*/

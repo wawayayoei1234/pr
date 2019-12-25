@@ -6,9 +6,11 @@
 
 ## Agenda
 
+@ol
 * Basic `if` statement syntaxs
 * Ternary Operator
 * Demo
+@olend
 
 ---
 
@@ -79,7 +81,7 @@ amount = vat > 0.0 ? price * (100 + vat) / 100 : price;
 
 +++
 
-## Quick Demo
+## Quick Demo 1
 
 ```csharp
 vat = 7.0; // VAT 7%
@@ -99,7 +101,7 @@ amount = (vat > 0.0) ? price * (100 + vat) / 100 : price;
 
 ---
 
-## Demo I
+## Demo 1
 
 ```csharp
 var name = Console.ReadLine();
@@ -113,7 +115,7 @@ if (name == "John") {
 
 +++
 
-## Demo II
+## Demo 2
 
 ```csharp
 var name = Console.ReadLine();
@@ -126,7 +128,7 @@ Console.WriteLine("Sorry, I thought you're John.");
 
 +++
 
-## Demo III
+## Demo 3
 
 ```csharp
 if (score > 80) {
@@ -137,240 +139,5 @@ if (score > 80) {
 	grade = "C";
 } else {
 	grade = "F";
-}
-```
-
-+++
-
-## Demo IV
-
-```csharp
-if (score > 80) {
-	grade = "A";
-} if (score > 70) {
-	grade = "B";
-} if (score > 60) {
-	grade = "C";
-} else {
-	grade = "F";
-}
-```
-
-+++
-
-## Demo V
-
-```csharp
-if (score > 60) {
-	grade = "A";
-} else if (score > 70) {
-	grade = "B";
-} else if (score > 80) {
-	grade = "C";
-} else {
-	grade = "F";
-}
-```
-
-+++
-
-## Quiz I
-
-Could you rewrite conditional in `Demo V` to work exactly like `Demo III`?
-
-+++
-
-## Quiz II
-
-What structure do we use to compute the number of bank notes and coins?
-
-+++
-
-## Quiz III
-
-How to set `file2open` to *"inputfi.csv"* when `fname` is null?
-
-```csharp
-void OpenInputFile(string fname) {
-	// ...
-	string file2open;
-	// ...
-	// Process `file2open`
-}
-```
-
-+++
-
-## Demo VI
-
-```csharp
-void OpenInputFile(string fname) {
-	string file2open;
-
-	if (fname == null) {
-		file2open = "inputfi.csv";
-	} else {
-		file2open = fname;
-	}
-	// Process `file2open`
-}
-```
-
-+++
-
-## Demo VII
-
-```csharp
-void OpenInputFile(string fname) {
-	string file2open = fname;
-
-	if (fname == null) {
-		file2open = "inputfi.csv";
-	}
-	// Process `file2open`
-}
-```
-
-+++
-
-## Demo VIII
-
-```csharp
-void OpenInputFile(string fname) {
-	string file2open = (fname == null)
-		? "inputfi.csv"
-		: fname;
-	// Process `file2open`
-}
-```
-
----
-
-## Null-Coalescing Operator (??)
-
-```csharp
-var targetVar = targetValue ?? fallbackValue;
-```
-
-+++
-
-## Demo IX
-
-```csharp
-void OpenInputFile(string fname) {
-	string file2open = fname ?? "inputfi.csv";
-	// Process `file2open`
-}
-```
-
-+++
-
-## Quiz IV
-
-How to set `file2open` to *"inputfi.csv"* when `fname` is null **or has only whitespace**?
-
-```csharp
-void OpenInputFile(string fname) {
-	// ...
-	string file2open;
-	// ...
-	// Process `file2open`
-}
-```
-
-+++
-
-## Demo X
-
-```csharp
-void OpenInputFile(string fname) {
-	string file2open = string.IsNullOrWhiteSpace(fname)
-		? "inputfi.csv"
-		: fname;
-	// Process `file2open`
-}
-```
-
-+++
-
-## Demo XI
-
-```csharp
-void OpenInputFile(string fname) {
-	string file2open = fname;
-
-	if (string.IsNullOrWhiteSpace(fname)) {
-		file2open = "inputfi.csv";
-	}
-	// Process `file2open`
-}
-```
-
----
-
-## Quiz V
-
-How to get the number of elements in `inputData` and assign to `count` correctly?
-
-```csharp
-void ComputeMean(int[] inputData) {
-	// How to set this variable correctly.
-	var count;
-}
-```
-
-+++
-
-## Demo XII
-
-```csharp
-void ComputeMean(int[] inputData) {
-	var count;
-	if (inputData != null) {
-		count = inputData.Length;
-	}
-}
-```
-
-+++
-
-## Demo XIII
-
-```csharp
-void ComputeMean(int[] inputData) {
-	var count = 0;
-	if (inputData != null) {
-		count = inputData.Length;
-	}
-}
-```
-
----
-
-## Null-Conditional Operators
-
-### ?. and ?[]
-
-```csharp
-var count = inputData?.Length;
-```
-
-+++
-
-## Demo XIV
-
-```csharp
-void ComputeMean(int[] inputData) {
-	var count = inputData?.Length;
-}
-```
-
-+++
-
-## Demo XV
-
-```csharp
-void ComputeMean(int[] inputData) {
-	var count = inputData?.Length ?? 0;
 }
 ```
