@@ -42,6 +42,9 @@ if (score > 80)
 } else if (score > 70) 
 {
     Console.Writeline("B")
+} else if (score > 70) 
+{
+    Console.Writeline("B")
 } else 
 {
     Console.Writeline("F")
