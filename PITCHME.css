@@ -5,6 +5,16 @@ section.has-dark-background h2 {
   text-shadow: 2px 2px 5px red;
 }
 
+section.has-dark-background h5 {
+  color: red;
+  font-size: 70%;
+}
+
+.reveal h5 em {
+  color: darkgray;
+  font-size: 50%;
+}
+
 .reveal .slide-background-content {
   background-color: rgb(7, 7, 7);
 }
