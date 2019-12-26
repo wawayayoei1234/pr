@@ -14,17 +14,13 @@
 ## `else-if` statement syntaxs
 
 ```csharp
-if (conditionA) 
-{
+if (conditionA) {
 // Do if the conditionA is true    
-} else if (conditionB) 
-{
+} else if (conditionB) {
 // Do if the conditionB is true    
-} else if (conditionC)  
-{
+} else if (conditionC)  {
 // Do if the conditionC is true    
-} else 
-{
+} else {
 // Or if the condition is not met    
 }
 ```
@@ -36,17 +32,13 @@ if (conditionA)
 ```csharp
 var sccore = 81;
 
-if (score > 80) 
-{
+if (score > 80) {
     Console.Writeline("A")
-} else if (score > 70) 
-{
+} else if (score > 70) {
     Console.Writeline("B")
-} else if (score > 70) 
-{
+} else if (score > 70) {
     Console.Writeline("C")
-} else 
-{
+} else {
     Console.Writeline("F")
 }
 ```
@@ -62,17 +54,13 @@ A
 ```csharp
 var sccore = 75;
 
-if (score > 80) 
-{
+if (score > 80) {
     Console.Writeline("A")
-} else if (score > 70) 
-{
+} else if (score > 70) {
     Console.Writeline("B")
-} else if (score > 70) 
-{
+} else if (score > 70) {
     Console.Writeline("C")
-} else 
-{
+} else {
     Console.Writeline("F")
 }
 ```
@@ -90,11 +78,9 @@ if (score > 80)
 if (conditionA) 
 {
 	// Do if the conditionA is true
-	if (conditionB) 
-	{
+	if (conditionB) {
 	// Do if the conditionA is true		
-	} else 
-	{
+	} else {
 	// Or if the condition is not met
 	}
 }
@@ -110,11 +96,9 @@ var number = 1;
 if (number == 1) 
 {
 
-	if (number == 1) 
-	{
+	if (number == 1) {
 		Console.Writeline("Hello World")
-	} else 
-	{
+	} else {
 		Console.Writeline("Hello Mama");
 	}
 }
@@ -134,11 +118,9 @@ var number = 1;
 if (number == 1) 
 {
 
-	if (number == 2) 
-	{
+	if (number == 2) {
 		Console.Writeline("Hello World")
-	} else 
-	{
+	} else {
 		Console.Writeline("Hello Mama");
 	}
 }
