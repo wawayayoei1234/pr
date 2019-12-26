@@ -91,6 +91,7 @@ Sorry, I thought you're John.
 ##### ถึง name จะเป็นจริงหรือไม่ *"Sorry, I thought you're John."* ยังแสดงผลอยู่ดี
 ---
 ## compare
+if-else
 ```csharp
 var name = "Joe";
 
@@ -100,6 +101,7 @@ if (name == "John") {
 	Console.WriteLine("Sorry, I thought you're John.");
 }
 ```
+if
 ```csharp
 var name = "John";
 
