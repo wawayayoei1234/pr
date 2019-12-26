@@ -103,7 +103,9 @@ if (name == "John") {
 Console.WriteLine("Sorry, I thought you're John.");
 ```
 @snapend
+
 @snap[south-west span-50]
+#### result
 ```text
 Oh, I'm looking for you John!
 Sorry, I thought you're John.
