@@ -104,7 +104,7 @@ Console.WriteLine("Sorry, I thought you're John.");
 ```
 @snapend
 
-@snap[south-west span-50]
+@snap[south-west span-50 center]
 #### result
 ```text
 Oh, I'm looking for you John!
