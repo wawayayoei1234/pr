@@ -65,7 +65,7 @@ if (conditionA)
 	} 
 	else 
 	{
-
+	// Or if the condition is not met
 	}
 }
 ```
