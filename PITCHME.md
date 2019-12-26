@@ -16,10 +16,10 @@
 ```csharp
 if (conditionA) 
 {
-    
+// Do if the conditionA is true    
 } else if(conditionB) 
 {
-    
+// Do if the conditionB is true    
 } else 
 {
     
