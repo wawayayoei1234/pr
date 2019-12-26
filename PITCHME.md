@@ -24,11 +24,26 @@ result = condition ? valueIfTrue: valueIfFalse;
 var vat = 7.0;
 var price = 1000;
 
-var amount = vat > 0.0 ? price * (100 + vat) / 100 : price;
+ amount = vat > 0.0 ? price * (100 + vat) / 100 : price;
 ```
 
 #### result
 
 ```csharp
 1070
+```
++++
+## Demo 2
+
+```csharp
+var vat = 0.0;
+var price = 1000;
+
+ amount = vat > 0.0 ? price * (100 + vat) / 100 : price;
+```
+
+#### result
+
+```csharp
+1000
 ```
