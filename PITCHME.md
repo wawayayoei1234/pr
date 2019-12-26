@@ -90,3 +90,22 @@ Oh, I'm looking for you John!
 Sorry, I thought you're John.
 ```
 ##### ถึง name จะเป็นจริงหรือไม่ *"Sorry, I thought you're John."* ยังแสดงผลอยู่ดี
+---
+
+## compare
+@snap[west span-50]
+```csharp
+var name = "John";
+
+if (name == "John") {
+	Console.WriteLine("Oh, I'm looking for you John!");
+}
+Console.WriteLine("Sorry, I thought you're John.");
+```
+@snapend
+@snap[south-west span-50]
+```text
+Oh, I'm looking for you John!
+Sorry, I thought you're John.
+```
+@snapend
