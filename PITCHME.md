@@ -101,7 +101,9 @@ if (name == "John") {
 	Console.WriteLine("Sorry, I thought you're John.");
 }
 ```
+@snap[text-left]
 if
+@snapend
 ```csharp
 var name = "John";
 
