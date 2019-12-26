@@ -22,7 +22,7 @@ if (conditionA)
 // Do if the conditionB is true    
 } else 
 {
-    
+// Or if the condition is not met    
 }
 ```
 
@@ -58,9 +58,10 @@ A
 ```csharp
 if (conditionA) 
 {
+	// Do if the conditionA is true
 	if (conditionB) 
 	{
-		
+	// Do if the conditionA is true		
 	} 
 	else 
 	{
