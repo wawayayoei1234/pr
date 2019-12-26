@@ -1,29 +1,19 @@
-## else-if & nested if
+# Ternary 
 
 ---
 
 ## Agenda
 
 @ol
-*  `else-if` statement syntaxs
-*  nested ` if` statement syntaxs
+*  `Ternary` statement syntaxs
 @olend
 
 ---
 
-## `else-if` statement syntaxs
+##  `Ternary` statement syntaxs
 
 ```csharp
-if (conditionA) 
-{
-    
-} else if(conditionB) 
-{
-    
-} else 
-{
-    
-}
+result = condition ? valueIfTrue: valueIfFalse;
 ```
 
 +++
@@ -31,68 +21,14 @@ if (conditionA)
 ## Demo 1
 
 ```csharp
-var sccore = 81;
+var vat = 7.0;
+var price = 1000;
 
-if (score > 80) 
-{
-    Console.Writeline("A")
-} else if (score > 70) 
-{
-    Console.Writeline("B")
-}else 
-{
-    Console.Writeline("F")
-}
+var amount = vat > 0.0 ? price * (100 + vat) / 100 : price;
 ```
 
 #### result
 
 ```csharp
-A
-```
-
----
-
-##  `nested if` statement syntax 
-
-```csharp
-if (conditionA) 
-{
-	if (conditionB) 
-	{
-		
-	} 
-	else 
-	{
-
-	}
-}
-```
-
-+++
-
-## Demo 1
-
-```csharp
-var number = 1;
-var numbers = 2;
-
-if (number == 1) 
-{
-
-	if (numbers == 2) 
-	{
-		Console.Writeline("Hello World")
-	} 
-	else 
-	{
-		Console.Writeline("Hello mama");
-	}
-}
-```
-
-#### result
-
-```csharp
-Hello World
+1070
 ```
