@@ -14,11 +14,9 @@
 ##  `if else` Statement Syntax 
 
 ```csharp
-if (condition) 
-{
+if (condition) {
 // Do if the condition is true
-} else 
-{
+} else {
 // Or if the condition is not met
 }
 ```
@@ -30,11 +28,9 @@ if (condition)
 ```csharp
 var name = "John";
 
-if (name == "John") 
-{
+if (name == "John") {
 	Console.WriteLine("Oh, I'm looking for you John!");
-} else 
-{
+} else {
 	Console.WriteLine("Sorry, I thought you're John.");
 }
 ```
@@ -52,11 +48,9 @@ Oh, I'm looking for you John!
 ```csharp
 var name = "Joe";
 
-if (name == "John") 
-{
+if (name == "John") {
 	Console.WriteLine("Oh, I'm looking for you John!");
-} else 
-{
+} else {
 	Console.WriteLine("Sorry, I thought you're John.");
 }
 ```
@@ -71,8 +65,7 @@ Sorry, I thought you're John.
 ##  `if` Statement Syntax 
 
 ```csharp
-if (condition) 
-{
+if (condition) {
 // Do if the condition is true
 }
 ```
@@ -84,8 +77,7 @@ if (condition)
 ```csharp
 var name = "John";
 
-if (name == "John") 
-{
+if (name == "John") {
 	Console.WriteLine("Oh, I'm looking for you John!");
 }
 Console.WriteLine("Sorry, I thought you're John.");
