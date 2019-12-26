@@ -96,7 +96,7 @@ Sorry, I thought you're John.
 @snap[north span-50 center]
 ## compare
 @snapend
-@snap[west span-50]
+@snap[west span-30]
 ```csharp
 var name = "John";
 
