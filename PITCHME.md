@@ -44,7 +44,7 @@ if (score > 80)
     Console.Writeline("B")
 } else if (score > 70) 
 {
-    Console.Writeline("B")
+    Console.Writeline("C")
 } else 
 {
     Console.Writeline("F")
@@ -56,7 +56,32 @@ if (score > 80)
 ```csharp
 A
 ```
++++
+## Demo 1
 
+```csharp
+var sccore = 75;
+
+if (score > 80) 
+{
+    Console.Writeline("A")
+} else if (score > 70) 
+{
+    Console.Writeline("B")
+} else if (score > 70) 
+{
+    Console.Writeline("C")
+} else 
+{
+    Console.Writeline("F")
+}
+```
+
+#### result
+
+```csharp
+ฺฺB
+```
 ---
 
 ##  `nested if` statement syntax 
