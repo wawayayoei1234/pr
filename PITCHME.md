@@ -114,3 +114,19 @@ if (name == "John") {
 }
 Console.WriteLine("Sorry, I thought you're John.");
 ```
++++
+## compare
+@snap[text-left]
+#### result
+@snapend
+```text
+Sorry, I thought you're John.
+```
+
+@snap[text-left]
+#### result
+@snapend
+```text
+Oh, I'm looking for you John!
+Sorry, I thought you're John.
+```
