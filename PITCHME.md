@@ -117,14 +117,14 @@ Console.WriteLine("Sorry, I thought you're John.");
 +++
 ## compare
 @snap[text-left]
-#### result
+result if-else
 @snapend
 ```text
 Sorry, I thought you're John.
 ```
 
 @snap[text-left]
-#### result
+result if
 @snapend
 ```text
 Oh, I'm looking for you John!
