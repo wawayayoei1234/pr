@@ -69,7 +69,6 @@ if (condition) {
 // Do if the condition is true
 }
 ```
-
 +++
 
 ## Demo 1
@@ -91,12 +90,16 @@ Sorry, I thought you're John.
 ```
 ##### ถึง name จะเป็นจริงหรือไม่ *"Sorry, I thought you're John."* ยังแสดงผลอยู่ดี
 ---
-
-
-@snap[north span-50 center]
 ## compare
-@snapend
-@snap[west span-80]
+```csharp
+var name = "Joe";
+
+if (name == "John") {
+	Console.WriteLine("Oh, I'm looking for you John!");
+} else {
+	Console.WriteLine("Sorry, I thought you're John.");
+}
+```
 ```csharp
 var name = "John";
 
@@ -105,12 +108,3 @@ if (name == "John") {
 }
 Console.WriteLine("Sorry, I thought you're John.");
 ```
-@snapend
-
-@snap[south-west span-50 center]
-#### result
-```text
-Oh, I'm looking for you John!
-Sorry, I thought you're John.
-```
-@snapend
