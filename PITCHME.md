@@ -17,9 +17,12 @@
 if (conditionA) 
 {
 // Do if the conditionA is true    
-} else if(conditionB) 
+} else if (conditionB) 
 {
 // Do if the conditionB is true    
+} else if (conditionC)  
+{
+// Do if the conditionC is true    
 } else 
 {
 // Or if the condition is not met    
@@ -39,7 +42,7 @@ if (score > 80)
 } else if (score > 70) 
 {
     Console.Writeline("B")
-}else 
+} else 
 {
     Console.Writeline("F")
 }
@@ -62,8 +65,7 @@ if (conditionA)
 	if (conditionB) 
 	{
 	// Do if the conditionA is true		
-	} 
-	else 
+	} else 
 	{
 	// Or if the condition is not met
 	}
@@ -84,8 +86,7 @@ if (number == 1)
 	if (numbers == 2) 
 	{
 		Console.Writeline("Hello World")
-	} 
-	else 
+	} else 
 	{
 		Console.Writeline("Hello mama");
 	}
