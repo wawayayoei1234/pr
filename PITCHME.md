@@ -13,8 +13,7 @@
 ##  `if else` Statement Syntax 
 ![](https://scontent.fkkc2-1.fna.fbcdn.net/v/t1.15752-9/80838713_2480832262185612_6068699028726480896_n.png?_nc_cat=105&_nc_ohc=Jtv49Vm6ugYAQlNCT6fJGkfwaI_BDcyf0W5CiZ-PXtKujnl7FWiQzdC4g&_nc_ht=scontent.fkkc2-1.fna&oh=ab75bb0e994bb854dea704be3fc2f6db&oe=5E699830)
 
----
-
++++
 
 ##  `if else` Statement Syntax 
 
