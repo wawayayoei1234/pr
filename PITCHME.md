@@ -92,7 +92,10 @@ Sorry, I thought you're John.
 ##### ถึง name จะเป็นจริงหรือไม่ *"Sorry, I thought you're John."* ยังแสดงผลอยู่ดี
 ---
 
+
+@snap[north span-50 center]
 ## compare
+@snapend
 @snap[west span-50]
 ```csharp
 var name = "John";
