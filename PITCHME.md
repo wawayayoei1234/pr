@@ -57,7 +57,7 @@ if (score > 80)
 A
 ```
 +++
-## Demo 1
+## Demo 2
 
 ```csharp
 var sccore = 75;
