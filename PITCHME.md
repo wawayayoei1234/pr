@@ -81,7 +81,30 @@ if (conditionA)
 
 ```csharp
 var number = 1;
-var numbers = 2;
+
+if (number == 1) 
+{
+
+	if (numbers == 1) 
+	{
+		Console.Writeline("Hello World")
+	} else 
+	{
+		Console.Writeline("Hello Mama");
+	}
+}
+```
+
+#### result
+
+```csharp
+Hello World
+```
++++
+## Demo 2
+
+```csharp
+var number = 1;
 
 if (number == 1) 
 {
@@ -91,7 +114,7 @@ if (number == 1)
 		Console.Writeline("Hello World")
 	} else 
 	{
-		Console.Writeline("Hello mama");
+		Console.Writeline("Hello Mama");
 	}
 }
 ```
@@ -99,5 +122,5 @@ if (number == 1)
 #### result
 
 ```csharp
-Hello World
+Hello Mama
 ```
