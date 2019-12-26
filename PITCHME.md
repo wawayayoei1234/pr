@@ -110,7 +110,7 @@ var number = 1;
 if (number == 1) 
 {
 
-	if (numbers == 1) 
+	if (number == 1) 
 	{
 		Console.Writeline("Hello World")
 	} else 
@@ -134,7 +134,7 @@ var number = 1;
 if (number == 1) 
 {
 
-	if (numbers == 2) 
+	if (number == 2) 
 	{
 		Console.Writeline("Hello World")
 	} else 
