@@ -91,7 +91,9 @@ Sorry, I thought you're John.
 ##### ถึง name จะเป็นจริงหรือไม่ *"Sorry, I thought you're John."* ยังแสดงผลอยู่ดี
 ---
 ## compare
+@snap[text-left]
 if-else
+@snapend
 ```csharp
 var name = "Joe";
 
