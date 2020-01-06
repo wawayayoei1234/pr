@@ -10,7 +10,7 @@
 ---
 ### การใช้และวิธีเขียน `else-if` 
 
-![photo](https://sv1.picz.in.th/images/2020/01/06/RBtwgV.png)
+![photo](https://sv1.picz.in.th/images/2020/01/06/RB1Rry.png)
 
 ---
 
