@@ -18,9 +18,9 @@
 ### การใช้และวิธีเขียน `if-else`
 
 ```csharp
-if (เงื่อนไข) {
+if (เงื่อนไข){
 // ทำในวงเล็บเมื่อเงื่อนไขเป็นจริง
-} else {
+} else{
 // ทำในวงเล็บเมื่อไม่มีเงื่อนไขเป็นจริง
 }
 ```
@@ -32,9 +32,9 @@ if (เงื่อนไข) {
 ```csharp
 var name = "John";
 
-if (name == "John") {
+if (name == "John"){
 	Console.WriteLine("Oh, I'm looking for you John!");
-} else {
+} else{
 	Console.WriteLine("Sorry, I thought you're John.");
 }
 ```
@@ -52,9 +52,9 @@ Oh, I'm looking for you John!
 ```csharp
 var name = "Mark";
 
-if (name == "John") {
+if (name == "John"){
 	Console.WriteLine("Oh, I'm looking for you John!");
-} else {
+} else{
 	Console.WriteLine("Sorry, I thought you're John.");
 }
 ```
@@ -87,7 +87,7 @@ if (เงื่อนไข) {
 ```csharp
 var name = "John";
 
-if (name == "John") {
+if (name == "John"){
 	Console.WriteLine("Oh, I'm looking for you John!");
 }
 Console.WriteLine("Sorry, I thought you're John.");
