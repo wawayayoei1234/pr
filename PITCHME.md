@@ -74,7 +74,9 @@ A
 ---
 
 ### การใช้และวิธีเขียน  ` if` 
+
 ![](https://sv1.picz.in.th/images/2020/01/06/RBwy48.png)
+
 ---
 ### การใช้และวิธีเขียน  ` if` 
 
@@ -110,27 +112,28 @@ if (money == yes){
 #### ผลลัพธ์
 
 ```csharp
-Hello World
+You can buy
 ```
 +++
 ### ตัวอย่างที่ 2
 
 ```csharp
-    var money = "yes";
-    var price = 30;
-    if (money == "yes") {
-        if (price == 30) {
-         Console.WriteLine ("You can buy");
-        }else {
-         Console.WriteLine ("Not enough money");
-        }
-    }
+var money = yes;
+var price = 30;
+
+if (money == yes){
+ if (price == 20){
+    	Console.WriteLine("You can buy");
+    }else{
+    	Console.WriteLine("Not enough money");
+  }
+}
 ```
 
 #### ผลลัพธ์
 
 ```csharp
-Bey Bey World
+Not enough money
 ```
 ---
 
