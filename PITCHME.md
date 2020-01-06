@@ -1,4 +1,4 @@
-## else-if & nested if
+## else-if & Nested if
 
 ---
 
@@ -47,7 +47,7 @@ if (score > 80) {
 A
 ```
 +++
-## ตวอย่างที่ 2
+## ตัวอย่างที่ 2
 
 ```csharp
 var sccore = 75;
@@ -86,7 +86,7 @@ if (conditionA)
 
 +++
 
-## ตัวอย่าง 1
+## ตัวอย่างที่ 1
 
 ```csharp
 var number = 1;
