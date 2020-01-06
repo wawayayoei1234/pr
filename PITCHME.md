@@ -11,7 +11,7 @@
 
 ### การใช้และวิธีเขียน `if-else`
 
-![](https://scontent.fbkk12-2.fna.fbcdn.net/v/t1.15752-9/80364338_468173750506209_4044486942190993408_n.png?_nc_cat=104&_nc_eui2=AeHUH_RVHYxXhQ7Fs8s5-t9pSlA3Hk5W0_4xKaPHPjzWD6Vm1iijkcVtVhLTW362vZuyJjkHXr5hVc7t90K7HirwERHulUXtowGBktE5su5vDw&_nc_oc=AQm5k4TreAzPqL1RkfHHycyZdlq-L7UUmsuoiBGyR0g_5hlmcM78HOwfzecn0ozSQs8&_nc_ht=scontent.fbkk12-2.fna&oh=9082c1d02458b519a472c5e2a7cd04df&oe=5EA9E437)
+![](https://scontent.fkkc2-1.fna.fbcdn.net/v/t1.15752-9/80364338_468173750506209_4044486942190993408_n.png?_nc_cat=104&_nc_ohc=_pQsrTEI53kAQmOOpDz0TJ3ZQueUvyYGmRxjMNbqauM3lzuiTiWKqXeIA&_nc_ht=scontent.fkkc2-1.fna&oh=0f85864b88c62e0daed12106f08d3316&oe=5EA9E437)
 
 +++
 
@@ -70,8 +70,8 @@ Sorry, I thought you're John.
 ### การใช้และวิธีเขียน `if` 
 
 ```csharp
-if (condition) {
-// Do if the condition is true
+if (เงื่อนไข) {
+// ทำเมื่อเงื่อนไขเป็นจริง
 }
 ```
 
