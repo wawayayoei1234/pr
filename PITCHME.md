@@ -126,6 +126,6 @@ Bey Bey World
 ```
 ---
 
-#### เปรียบเทียบ
+### เปรียบเทียบ
 
 ![photo](https://sv1.picz.in.th/images/2020/01/06/RB9SX0.jpg)
