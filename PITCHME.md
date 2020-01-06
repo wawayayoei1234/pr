@@ -18,16 +18,16 @@
 ### การใช้และวิธีเขียน `if-else`
 
 ```csharp
-if (condition) {
-// Do if the condition is true
+if (เงื่อนไข) {
+// ทำในวงเล็บเมื่อเงื่อนไขเป็นจริง
 } else {
-// Or if the condition is not met
+// ทำในวงเล็บเมื่อไม่มีเงื่อนไขเป็นจริง
 }
 ```
 
 +++
 
-### Demo 1
+### ตัวอย่างที่ 1
 
 ```csharp
 var name = "John";
@@ -39,7 +39,7 @@ if (name == "John") {
 }
 ```
 
-#### result
+#### ผลลัพธ์
 
 ```text
 Oh, I'm looking for you John!
@@ -47,10 +47,10 @@ Oh, I'm looking for you John!
 
 +++
 
-### Demo 2
+### ตัวอย่างที่ 2
 
 ```csharp
-var name = "";
+var name = "Mark";
 
 if (name == "John") {
 	Console.WriteLine("Oh, I'm looking for you John!");
@@ -59,7 +59,7 @@ if (name == "John") {
 }
 ```
 
-#### result
+#### ผลลัพธ์
 
 ```text
 Sorry, I thought you're John.
@@ -77,7 +77,7 @@ if (condition) {
 
 +++
 
-### Demo 1
+### ตัวอย่างที่ 1
 
 ```csharp
 var name = "John";
@@ -88,63 +88,12 @@ if (name == "John") {
 Console.WriteLine("Sorry, I thought you're John.");
 ```
 
-#### result
+#### ผลลัพธ์
 
 ```text
 Oh, I'm looking for you John!
 Sorry, I thought you're John.
 ```
-
-##### ถึง name จะเป็นจริงหรือไม่ _"Sorry, I thought you're John."_ ยังแสดงผลอยู่ดี
-
 ---
 
-### compare
-
-@snap[text-left]
-if-else
-@snapend
-
-```csharp
-var name = "Joe";
-
-if (name == "John") {
-	Console.WriteLine("Oh, I'm looking for you John!");
-} else {
-	Console.WriteLine("Sorry, I thought you're John.");
-}
-```
-
-@snap[text-left]
-if
-@snapend
-
-```csharp
-var name = "John";
-
-if (name == "John") {
-	Console.WriteLine("Oh, I'm looking for you John!");
-}
-Console.WriteLine("Sorry, I thought you're John.");
-```
-
-+++
-
-### compare
-
-@snap[text-left]
-result if-else
-@snapend
-
-```text
-Sorry, I thought you're John.
-```
-
-@snap[text-left]
-result if
-@snapend
-
-```text
-Oh, I'm looking for you John!
-Sorry, I thought you're John.
-```
+### เปรียบเทียบ
