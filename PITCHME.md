@@ -101,3 +101,4 @@ Sorry, I thought you're John.
 ---
 
 ### เปรียบเทียบ
+![](https://scontent.fkkc2-1.fna.fbcdn.net/v/t1.15752-9/82266638_1197111010495309_287991962517110784_n.jpg?_nc_cat=106&_nc_ohc=gL4-Xr15_6UAQk5JkTOL6wVWKBT1xyyQL4gcgyM-WtONPw_vJMSuZWmCw&_nc_ht=scontent.fkkc2-1.fna&oh=bb8a58067b205b158399281306a5f527&oe=5E947EA2)
