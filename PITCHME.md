@@ -50,7 +50,7 @@ Oh, I'm looking for you John!
 ## Demo 2
 
 ```csharp
-var name = "Joe";
+var name = "";
 
 if (name == "John") {
 	Console.WriteLine("Oh, I'm looking for you John!");
