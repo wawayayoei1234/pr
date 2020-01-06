@@ -11,7 +11,7 @@
 
 ### การใช้และวิธีเขียน `if-else`
 
-![](https://scontent.fkkc2-1.fna.fbcdn.net/v/t1.15752-9/80364338_468173750506209_4044486942190993408_n.png?_nc_cat=104&_nc_ohc=_pQsrTEI53kAQmOOpDz0TJ3ZQueUvyYGmRxjMNbqauM3lzuiTiWKqXeIA&_nc_ht=scontent.fkkc2-1.fna&oh=0f85864b88c62e0daed12106f08d3316&oe=5EA9E437)
+![](https://scontent.fkkc2-1.fna.fbcdn.net/v/t1.15752-9/81327675_527867397814703_277030389933932544_n.png?_nc_cat=104&_nc_ohc=4egw922EmggAQknmMoD6WtS2PUUzKAeHFGfgwOVB0Erzsja3Zu8IZNXMA&_nc_ht=scontent.fkkc2-1.fna&oh=abb3fc328cf05936cd789cb62daa263a&oe=5EA42B34)
 
 +++
 
