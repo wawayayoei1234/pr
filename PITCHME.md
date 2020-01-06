@@ -1,41 +1,41 @@
-## else-if & Nested if
+## else-if และ if ซ้อน if
 
 ---
 
-## หัวเรื่อง
+### หัวเรื่อง
 
 *  การใช้และวิธีเขียน `else-if` เบื่องต้น 
 *  การใช้และวิธีเขียน ` if` ซ้อน `if` เบื่องต้น
 
 ---
 
-## การใช้และวิธีเขียน `else-if` เบื่องต้น
+### การใช้และวิธีเขียน `else-if` เบื่องต้น
 
 ```csharp
-if (เงื่อนใขA) {
-// ทำในวงเล็บเมื่อเงื่อนใขAเป็นจริง    
-} else if (เงื่อนใขB) {
-// ทำในวงเล็บเมื่อเงื่อนใขฺBเป็นจริง    
-} else if (เงื่อนใขC)  {
-// ทำในวงเล็บเมื่อเงื่อนใขBเป็นจริง    
-} else {
+if (เงื่อนใข A){
+// ทำในวงเล็บเมื่อเงื่อนใข A เป็นจริง    
+}else if (เงื่อนใข B){
+// ทำในวงเล็บเมื่อเงื่อนใข B เป็นจริง     
+}else if (เงื่อนใข C){
+// ทำในวงเล็บเมื่อเงื่อนใข C เป็นจริง    
+}else{
 // ทำในวงเล็บเมื่อไม่มีเงื่อนใขใดเป็นจริง    
 }
 ```
 
 +++
 
-## ตัวอย่างที่ 1
+### ตัวอย่างที่ 1
 
 ```csharp
     var score = 81;
-    if (score > 80) {
+    if (score > 80){
         Console.WriteLine ("A");
-        } else if (score > 70) {
+        }else if (score > 70){
             Console.WriteLine ("B");
-        } else if (score > 70) {
+        }else if (score > 70){
             Console.WriteLine ("C");
-        } else {
+        }else{
             Console.WriteLine ("F");
         }
 ```
@@ -46,17 +46,17 @@ if (เงื่อนใขA) {
 A
 ```
 +++
-## ตัวอย่างที่ 2
+### ตัวอย่างที่ 2
 
 ```csharp
     var score = 75;
-    if (score > 80) {
+    if (score > 80){
         Console.WriteLine ("A");
-        } else if (score > 70) {
+        }else if (score > 70){
             Console.WriteLine ("B");
-        } else if (score > 70) {
+        }else if (score > 70){
             Console.WriteLine ("C");
-        } else {
+        }else{
             Console.WriteLine ("F");
         }
 ```
@@ -68,15 +68,14 @@ A
 ```
 ---
 
-## การใช้และวิธีเขียน  ` if` 
+### การใช้และวิธีเขียน  ` if` 
 
 ```csharp
-if (conditionA) 
-{
-	// ทำในวงเล็บเมื่อเงื่อนใขAเป็นจริง
-	if (conditionB) {
-	// ทำในวงเล็บเมื่อเงื่อนใขฺBเป็นจริง		
-	} else {
+if (เงื่อนใข A){
+	// ทำในวงเล็บเมื่อเงื่อนใข A เป็นจริง
+	if (เงื่อนใข B){
+	// ทำในวงเล็บเมื่อเงื่อนใข B เป็นจริง		
+	}else{
 	// ทำในวงเล็บเมื่อไม่มีเงื่อนใขใดเป็นจริง
 	}
 }
@@ -84,18 +83,17 @@ if (conditionA)
 
 +++
 
-## ตัวอย่างที่ 1
+### ตัวอย่างที่ 1
 
 ```csharp
 
 var money = yes;
 var price = 20;
 
-if (money == yes) 
-{
- if (price == 20) {
+if (money == yes){
+ if (price == 20){
     	Console.WriteLine("You can buy");
-    } else {
+    }else{
     	Console.WriteLine("Not enough money");
   }
 }
@@ -107,7 +105,7 @@ if (money == yes)
 Hello World
 ```
 +++
-## ตัวอย่างที่ 2
+### ตัวอย่างที่ 2
 
 ```csharp
     var money = "yes";
@@ -115,7 +113,7 @@ Hello World
     if (money == "yes") {
         if (price == 30) {
          Console.WriteLine ("You can buy");
-        } else {
+        }else {
          Console.WriteLine ("Not enough money");
         }
     }
@@ -127,6 +125,6 @@ Hello World
 Bey Bey World
 ```
 ---
-### เปรียบเทียบ
+#### เปรียบเทียบ
 
 ![]()
