@@ -69,6 +69,7 @@ Sorry, I thought you're John.
 
 ### การใช้และวิธีเขียน `if` 
 ![](https://scontent.fkkc2-1.fna.fbcdn.net/v/t1.15752-9/80838713_2480832262185612_6068699028726480896_n.png?_nc_cat=105&_nc_ohc=BFgUt8A0w4wAQnrsUkr0Rf7KKEUwwVwtjGbaijNcEwisAoRrZfruTFGCA&_nc_ht=scontent.fkkc2-1.fna&oh=0e67b051df570583cf2f1027373f6a0f&oe=5E912530)
+
 ---
 
 ### การใช้และวิธีเขียน `if` 
