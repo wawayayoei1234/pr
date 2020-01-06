@@ -67,7 +67,7 @@ Sorry, I thought you're John.
 
 ---
 
-### `if` Statement Syntax
+### การใช้และการเขียน`if` 
 
 ```csharp
 if (condition) {
