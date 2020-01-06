@@ -4,22 +4,22 @@
 
 ## หัวเรื่อง
 
-*  `else-if` statement syntaxs
-*  nested ` if` statement syntaxs
+*  การใช้และวิธีเขียน`else-if`เบื่องต้น 
+*  การใช้และวิธีเขียน` if` ซ้อน `if` เบื่องต้น
 
 ---
 
 ## การใช้และวิธีเขียน `else-if` เบื่องต้น
 
 ```csharp
-if (conditionA) {
-// Do if the conditionA is true    
-} else if (conditionB) {
-// Do if the conditionB is true    
-} else if (conditionC)  {
-// Do if the conditionC is true    
+if (เงื่อนใขA) {
+// ทำในวงเล็บเมื่อเงื่อนใขAเป็นจริง    
+} else if (เงื่อนใขB) {
+// ทำในวงเล็บเมื่อเงื่อนใขฺBเป็นจริง    
+} else if (เงื่อนใขC)  {
+// ทำในวงเล็บเมื่อเงื่อนใขBเป็นจริง    
 } else {
-// Or if the condition is not met    
+// ทำในวงเล็บเมื่อไม่มีเงื่อนใขใดเป็นจริง    
 }
 ```
 
@@ -28,17 +28,16 @@ if (conditionA) {
 ## ตัวอย่างที่ 1
 
 ```csharp
-var sccore = 81;
-
-if (score > 80) {
-    Console.Writeline("A")
-} else if (score > 70) {
-    Console.Writeline("B")
-} else if (score > 70) {
-    Console.Writeline("C")
-} else {
-    Console.Writeline("F")
-}
+    var score = 81;
+    if (score > 80) {
+        Console.WriteLine ("A");
+        } else if (score > 70) {
+            Console.WriteLine ("B");
+        } else if (score > 70) {
+            Console.WriteLine ("C");
+        } else {
+            Console.WriteLine ("F");
+        }
 ```
 
 #### ผลลัพธ์
@@ -50,17 +49,16 @@ A
 ## ตัวอย่างที่ 2
 
 ```csharp
-var sccore = 75;
-
-if (score > 80) {
-    Console.Writeline("A")
-} else if (score > 70) {
-    Console.Writeline("B")
-} else if (score > 70) {
-    Console.Writeline("C")
-} else {
-    Console.Writeline("F")
-}
+    var score = 75;
+    if (score > 80) {
+        Console.WriteLine ("A");
+        } else if (score > 70) {
+            Console.WriteLine ("B");
+        } else if (score > 70) {
+            Console.WriteLine ("C");
+        } else {
+            Console.WriteLine ("F");
+        }
 ```
 
 #### ผลลัพธ์
@@ -75,11 +73,11 @@ if (score > 80) {
 ```csharp
 if (conditionA) 
 {
-	// Do if the conditionA is true
+	// ทำในวงเล็บเมื่อเงื่อนใขAเป็นจริง
 	if (conditionB) {
-	// Do if the conditionA is true		
+	// ทำในวงเล็บเมื่อเงื่อนใขฺBเป็นจริง		
 	} else {
-	// Or if the condition is not met
+	// ทำในวงเล็บเมื่อไม่มีเงื่อนใขใดเป็นจริง
 	}
 }
 ```
@@ -89,15 +87,17 @@ if (conditionA)
 ## ตัวอย่างที่ 1
 
 ```csharp
-var number = 1;
 
-if (number == 1) 
+var money = yes;
+var price = 20;
+
+if (money == yes) 
 {
-	if (number == 1) {
-		Console.Writeline("Hello World")
-	} else {
-		Console.Writeline("Hello Mama");
-	}
+ if (price == 20) {
+    	Console.WriteLine("You can buy");
+    } else {
+    	Console.WriteLine("Not enough money");
+  }
 }
 ```
 
@@ -110,22 +110,21 @@ Hello World
 ## ตัวอย่างที่ 2
 
 ```csharp
-var number = 1;
-
-if (number == 1) 
-{
-	if (number == 2) {
-		Console.Writeline("Hello World")
-	} else {
-		Console.Writeline("Hello Mama");
-	}
-}
+    var money = "yes";
+    var price = 30;
+    if (money == "yes") {
+        if (price == 30) {
+         Console.WriteLine ("You can buy");
+        } else {
+         Console.WriteLine ("Not enough money");
+        }
+    }
 ```
 
 #### ผลลัพธ์
 
 ```csharp
-Hello Mama
+Bey Bey World
 ```
 ---
 ### เปรียบเทียบ
