@@ -13,12 +13,8 @@
 ![photo](https://sv1.picz.in.th/images/2020/01/06/RBtwgV.png)
 
 ---
+
 ### การใช้และวิธีเขียน `else-if` 
-
-![](https://sv1.picz.in.th/images/2020/01/06/RBtwgV.png)
----
-
-### การใช้และวิธีเขียน `else-if` เบื่องต้น
 
 ```csharp
 if (เงื่อนใข A){
@@ -78,7 +74,9 @@ A
 ---
 
 ### การใช้และวิธีเขียน  ` if` 
-
+![](https://sv1.picz.in.th/images/2020/01/06/RBwy48.png)
+---
+### การใช้และวิธีเขียน  ` if` 
 
 ```csharp
 if (เงื่อนใข A){
