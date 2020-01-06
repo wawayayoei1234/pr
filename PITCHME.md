@@ -10,7 +10,7 @@
 
 ---
 
-##  `Ternary` statement syntaxs
+##  การใช้และการเขียน`Ternary` 
 
 ```csharp
 result = condition ? valueIfTrue: valueIfFalse;
