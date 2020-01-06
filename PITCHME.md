@@ -2,16 +2,14 @@
 
 ---
 
-## Agenda
+## หัวเรื่อง
 
-@ol
 *  `else-if` statement syntaxs
 *  nested ` if` statement syntaxs
-@olend
 
 ---
 
-## `else-if` statement syntaxs
+## การใช้และวิธีเขียน `else-if` เบื่องต้น
 
 ```csharp
 if (conditionA) {
@@ -27,7 +25,7 @@ if (conditionA) {
 
 +++
 
-## Demo 1
+## ตัวอย่างที่ 1
 
 ```csharp
 var sccore = 81;
@@ -43,13 +41,13 @@ if (score > 80) {
 }
 ```
 
-#### result
+#### ผลลัพธ์
 
 ```csharp
 A
 ```
 +++
-## Demo 2
+## ตวอย่างที่ 2
 
 ```csharp
 var sccore = 75;
@@ -65,14 +63,14 @@ if (score > 80) {
 }
 ```
 
-#### result
+#### ผลลัพธ์
 
 ```csharp
 ฺฺB
 ```
 ---
 
-##  `nested if` statement syntax 
+## การใช้และวิธีเขียน  ` if` 
 
 ```csharp
 if (conditionA) 
@@ -88,7 +86,7 @@ if (conditionA)
 
 +++
 
-## Demo 1
+## ตัวอย่าง 1
 
 ```csharp
 var number = 1;
@@ -103,13 +101,13 @@ if (number == 1)
 }
 ```
 
-#### result
+#### ผลลัพธ์
 
 ```csharp
 Hello World
 ```
 +++
-## Demo 2
+## ตัวอย่างที่ 2
 
 ```csharp
 var number = 1;
@@ -124,7 +122,7 @@ if (number == 1)
 }
 ```
 
-#### result
+#### ผลลัพธ์
 
 ```csharp
 Hello Mama
