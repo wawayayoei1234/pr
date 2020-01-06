@@ -2,11 +2,11 @@
 
 ---
 
-## Agenda
+## หัวเรื่อง
 
-@ol
-*  `Ternary` statement syntaxs
-@olend
+
+*  การใช้และการเขียน`Ternary` 
+
 
 ---
 
@@ -18,7 +18,7 @@ result = condition ? valueIfTrue: valueIfFalse;
 
 +++
 
-## Demo 1
+## ตัวอย่างที่ 1
 
 ```csharp
 var vat = 7.0;
@@ -27,13 +27,13 @@ var price = 1000;
  amount = vat > 0.0 ? price * (100 + vat) / 100 : price;
 ```
 
-#### result
+#### ผลลัพธ์
 
 ```csharp
 1070
 ```
 +++
-## Demo 2
+## ตัวอย่างที่ 2
 
 ```csharp
 var vat = 0.0;
@@ -42,7 +42,7 @@ var price = 1000;
  amount = vat > 0.0 ? price * (100 + vat) / 100 : price;
 ```
 
-#### result
+#### ผลลัพธ์
 
 ```csharp
 1000
