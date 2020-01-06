@@ -2,7 +2,7 @@
 
 ---
 
-## หัวเรื่อง
+### หัวเรื่อง
 
 
 *  การใช้และการเขียน`Ternary` 
@@ -10,7 +10,7 @@
 
 ---
 
-##  การใช้และการเขียน`Ternary` 
+###  การใช้และการเขียน`Ternary` 
 
 ```csharp
 result = condition ? valueIfTrue: valueIfFalse;
@@ -18,7 +18,7 @@ result = condition ? valueIfTrue: valueIfFalse;
 
 +++
 
-## ตัวอย่างที่ 1
+### ตัวอย่างที่ 1
 
 ```csharp
 var vat = 7.0;
@@ -33,7 +33,7 @@ var price = 1000;
 1070
 ```
 +++
-## ตัวอย่างที่ 2
+### ตัวอย่างที่ 2
 
 ```csharp
 var vat = 0.0;
