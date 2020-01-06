@@ -1,4 +1,4 @@
-## If & if-else
+## if & if-else
 
 ---
 ## Agenda
