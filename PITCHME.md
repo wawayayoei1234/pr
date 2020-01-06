@@ -1,150 +1,136 @@
-## if และ if-else
+## else-if และ if ซ้อน if
 
 ---
 
 ### หัวเรื่อง
 
-- การใช้และวิธีเขียน `if-else`
-- การใช้และวิธีเขียน `if`
+*  การใช้และวิธีเขียน `else-if`  
+*  การใช้และวิธีเขียน ` if` ซ้อน `if` 
 
 ---
+### การใช้และวิธีเขียน `else-if` 
 
-### การใช้และวิธีเขียน `if-else`
-
-![](https://scontent.fbkk12-1.fna.fbcdn.net/v/t1.15752-9/80509824_2382624285181242_6796320454932955136_n.png?_nc_cat=101&_nc_eui2=AeGH9zWFEw9rajFjxRkqedP3XPi-SBGOiOK-Y74sBSHBFV2WnXTgfBrjy7nkuTi7O1kDYq5JHMXSIH0ioIv1dNDlSCvoXaXnoLfCJNt8VaSeAA&_nc_oc=AQlA_cBv6PAf1KZzHdKCeEOZByqhJdo2uWQGw9F8l4xAhQyQFIOCTuEiDfAh-EYkfE8&_nc_ht=scontent.fbkk12-1.fna&oh=df7d5950f1ae31596f8fa88b208ff54e&oe=5E97EE32)
-
-+++
-
-### การใช้และวิธีเขียน `if-else`
-
-```csharp
-if (condition) {
-// Do if the condition is true
-} else {
-// Or if the condition is not met
-}
-```
-
-+++
-
-### Demo 1
-
-```csharp
-var name = "John";
-
-if (name == "John") {
-	Console.WriteLine("Oh, I'm looking for you John!");
-} else {
-	Console.WriteLine("Sorry, I thought you're John.");
-}
-```
-
-#### result
-
-```text
-Oh, I'm looking for you John!
-```
-
-+++
-
-### Demo 2
-
-```csharp
-var name = "";
-
-if (name == "John") {
-	Console.WriteLine("Oh, I'm looking for you John!");
-} else {
-	Console.WriteLine("Sorry, I thought you're John.");
-}
-```
-
-#### result
-
-```text
-Sorry, I thought you're John.
-```
+![photo](https://sv1.picz.in.th/images/2020/01/06/RBtwgV.png)
 
 ---
-
-### `if` Statement Syntax
+### การใช้และวิธีเขียน `else-if` 
 
 ```csharp
-if (condition) {
-// Do if the condition is true
+if (เงื่อนใข A){
+// ทำในวงเล็บเมื่อเงื่อนใข A เป็นจริง    
+}else if (เงื่อนใข B){
+// ทำในวงเล็บเมื่อเงื่อนใข B เป็นจริง     
+}else if (เงื่อนใข C){
+// ทำในวงเล็บเมื่อเงื่อนใข C เป็นจริง    
+}else{
+// ทำในวงเล็บเมื่อไม่มีเงื่อนใขใดเป็นจริง    
 }
 ```
 
 +++
 
-### Demo 1
+### ตัวอย่างที่ 1
 
 ```csharp
-var name = "John";
-
-if (name == "John") {
-	Console.WriteLine("Oh, I'm looking for you John!");
-}
-Console.WriteLine("Sorry, I thought you're John.");
+    var score = 81;
+    if (score > 80){
+        Console.WriteLine ("A");
+        }else if (score > 70){
+            Console.WriteLine ("B");
+        }else if (score > 70){
+            Console.WriteLine ("C");
+        }else{
+            Console.WriteLine ("F");
+        }
 ```
 
-#### result
+#### ผลลัพธ์
 
-```text
-Oh, I'm looking for you John!
-Sorry, I thought you're John.
+```csharp
+A
+```
++++
+### ตัวอย่างที่ 2
+
+```csharp
+    var score = 75;
+    if (score > 80){
+        Console.WriteLine ("A");
+        }else if (score > 70){
+            Console.WriteLine ("B");
+        }else if (score > 70){
+            Console.WriteLine ("C");
+        }else{
+            Console.WriteLine ("F");
+        }
 ```
 
-##### ถึง name จะเป็นจริงหรือไม่ _"Sorry, I thought you're John."_ ยังแสดงผลอยู่ดี
+#### ผลลัพธ์
 
+```csharp
+ฺฺB
+```
 ---
 
-### compare
+### การใช้และวิธีเขียน  ` if` 
 
-@snap[text-left]
-if-else
-@snapend
 
 ```csharp
-var name = "Joe";
-
-if (name == "John") {
-	Console.WriteLine("Oh, I'm looking for you John!");
-} else {
-	Console.WriteLine("Sorry, I thought you're John.");
+if (เงื่อนใข A){
+	// ทำในวงเล็บเมื่อเงื่อนใข A เป็นจริง
+	if (เงื่อนใข B){
+	// ทำในวงเล็บเมื่อเงื่อนใข B เป็นจริง		
+	}else{
+	// ทำในวงเล็บเมื่อไม่มีเงื่อนใขใดเป็นจริง
+	}
 }
-```
-
-@snap[text-left]
-if
-@snapend
-
-```csharp
-var name = "John";
-
-if (name == "John") {
-	Console.WriteLine("Oh, I'm looking for you John!");
-}
-Console.WriteLine("Sorry, I thought you're John.");
 ```
 
 +++
 
-### compare
+### ตัวอย่างที่ 1
 
-@snap[text-left]
-result if-else
-@snapend
+```csharp
 
-```text
-Sorry, I thought you're John.
+var money = yes;
+var price = 20;
+
+if (money == yes){
+ if (price == 20){
+    	Console.WriteLine("You can buy");
+    }else{
+    	Console.WriteLine("Not enough money");
+  }
+}
 ```
 
-@snap[text-left]
-result if
-@snapend
+#### ผลลัพธ์
 
-```text
-Oh, I'm looking for you John!
-Sorry, I thought you're John.
+```csharp
+Hello World
 ```
++++
+### ตัวอย่างที่ 2
+
+```csharp
+    var money = "yes";
+    var price = 30;
+    if (money == "yes") {
+        if (price == 30) {
+         Console.WriteLine ("You can buy");
+        }else {
+         Console.WriteLine ("Not enough money");
+        }
+    }
+```
+
+#### ผลลัพธ์
+
+```csharp
+Bey Bey World
+```
+---
+
+### เปรียบเทียบ
+
+![photo](https://sv1.picz.in.th/images/2020/01/06/RB9DWb.jpg)
