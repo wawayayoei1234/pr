@@ -18,12 +18,12 @@
 ### การใช้และวิธีเขียน `if-else-if`
 
 ```csharp
-if (เงื่อนใข A){
+if (เงื่อนไข A){
 	// ทำในวงเล็บเมื่อเงื่อนไข A เป็นจริง
 }else if (เงื่อนไข B){
 	// ทำในวงเล็บเมื่อเงื่อนไข B เป็นจริง
 }else if (เงื่อนไข C){
-	// ทำในวงเล็บเมื่อเงื่อนใข C เป็นจริง
+	// ทำในวงเล็บเมื่อเงื่อนไข C เป็นจริง
 }else{
 	// ทำในวงเล็บเมื่อไม่มีเงื่อนไขใดเป็นจริง
 }
@@ -110,7 +110,7 @@ if (money == "yes"){
 	if (price == 20){
 		Console.WriteLine("You can buy");
 	}else{
-		Console.WriteLine("Not enough money");
+		Console.WriteLine("No Money");
 	}
 }
 ```
@@ -133,7 +133,7 @@ if (money == "yes"){
 	if (price == 20){
 		Console.WriteLine("You can buy");
 	}else{
-		Console.WriteLine("Not enough money");
+		Console.WriteLine("No money");
 	}
 }
 ```
@@ -141,7 +141,7 @@ if (money == "yes"){
 #### ผลลัพธ์
 
 ```csharp
-Not enough money
+No Money
 ```
 
 ---
