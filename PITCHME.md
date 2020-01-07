@@ -1,4 +1,4 @@
-## if และ if-else
+## if-else และ if
 
 ---
 
