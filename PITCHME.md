@@ -35,6 +35,7 @@ if (เงื่อนใข A){
 
 ```csharp
 var score = 81;
+
 if (score > 80){
 	Console.WriteLine ("A");
 }else if (score > 70){
@@ -58,6 +59,7 @@ A
 
 ```csharp
 var score = 75;
+
 if (score > 80){
 	Console.WriteLine ("A");
 }else if (score > 70){
