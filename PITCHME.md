@@ -37,13 +37,13 @@ if (เงื่อนใข A){
 var score = 81;
 
 if (score > 80){
-	Console.WriteLine ("A");
+	Console.WriteLine("A");
 }else if (score > 70){
-	Console.WriteLine ("B");
+	Console.WriteLine("B");
 }else if (score > 60){
-	Console.WriteLine ("C");
+	Console.WriteLine("C");
 }else{
-	Console.WriteLine ("F");
+	Console.WriteLine("F");
 }
 ```
 
@@ -61,13 +61,13 @@ A
 var score = 75;
 
 if (score > 80){
-	Console.WriteLine ("A");
+	Console.WriteLine("A");
 }else if (score > 70){
-	Console.WriteLine ("B");
+	Console.WriteLine("B");
 }else if (score > 60){
-	Console.WriteLine ("C");
+	Console.WriteLine("C");
 }else{
-	Console.WriteLine ("F");
+	Console.WriteLine("F");
 }
 ```
 
@@ -146,6 +146,6 @@ Not enough money
 
 ---
 
-### เปรียบเทียบ
+### เปรียบเทียบระหว่าง if-else-if และ if ซ้อน if
 
 ![photo](https://sv1.picz.in.th/images/2020/01/06/RB9DWb.jpg)
