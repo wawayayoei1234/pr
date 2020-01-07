@@ -10,10 +10,10 @@
 
 ---
 
-###  การใช้และการเขียน`Ternary` 
+###  การใช้และการเขียน `Ternary` 
 
 ```csharp
-result = condition ? valueIfTrue: valueIfFalse;
+var result = condition ? valueIfTrue: valueIfFalse;
 ```
 
 +++
@@ -24,7 +24,7 @@ result = condition ? valueIfTrue: valueIfFalse;
 var vat = 7.0;
 var price = 1000;
 
-amount = vat > 0.0 ? price * (100 + vat) / 100 : price;
+var amount = vat > 0.0 ? price * (100 + vat) / 100 : price;
 ```
 
 #### ผลลัพธ์
@@ -39,7 +39,7 @@ amount = vat > 0.0 ? price * (100 + vat) / 100 : price;
 var vat = 1.0;
 var price = 1000;
 
-amount = vat > 0.0 ? price * (100 + vat) / 100 : price;
+var amount = vat > 0.0 ? price * (100 + vat) / 100 : price;
 ```
 
 #### ผลลัพธ์
