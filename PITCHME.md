@@ -47,5 +47,3 @@ amount = vat > 0.0 ? price * (100 + vat) / 100 : price;
 ```csharp
 1000
 ```
----
-
