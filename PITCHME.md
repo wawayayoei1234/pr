@@ -11,7 +11,7 @@
 
 ### การใช้และวิธีเขียน `if-else-if`
 
-![photo](https://sv1.picz.in.th/images/2020/01/06/RB1Rry.png)
+![photo](https://scontent.fkkc2-1.fna.fbcdn.net/v/t1.15752-9/81345507_468088657189752_2210022799941042176_n.png?_nc_cat=108&_nc_eui2=AeEoyzTQonT0EJu8S5vVYQojF6ivSgPl1FQo-7EBGS1WAPzsiaXHLiS8f45tjFqMcVVnKUgIy7KuxycaqpF7KZxvWl9ppjsy0HabiOtERe5hSQ&_nc_oc=AQke_FyOsD_IeUfyJJ5STmKnyQOYkwEkDg1SWsezjm_K34nSUphqafqPbI5c2pgoZL8&_nc_ht=scontent.fkkc2-1.fna&oh=8d18fe74da10641a787fff31fb35a5b3&oe=5EB462D3)
 
 ---
 
@@ -81,7 +81,7 @@ if (score > 80){
 
 ### การใช้และวิธีเขียน `if` ซ้อน `if`
 
-![](https://sv1.picz.in.th/images/2020/01/06/RBwy48.png)
+![](https://scontent.fkkc2-1.fna.fbcdn.net/v/t1.15752-9/81437743_468883894035422_2951059492072062976_n.png?_nc_cat=110&_nc_eui2=AeHxrJIIJwRgQ5DZduR4EQl4GVw0Eux6InMPnYO-VzqzgPt31aWatcrA8mndOQG6b5ImW5l17uoNJz5pq-NdTBBAIr26KLAvOQOFGVfqzHKS3g&_nc_oc=AQnsGW_jW18M5wTgzPvrMTCRaheYuPOwz0cFHZKIrKs7MgmoL_HDuTXHCWwten8IvU8&_nc_ht=scontent.fkkc2-1.fna&oh=1e53231c50f5873b3be1d64662534ec1&oe=5E9D8422)
 
 ---
 
