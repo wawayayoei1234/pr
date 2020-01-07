@@ -91,7 +91,7 @@ var name = "John";
 if (name == "John"){
 	Console.WriteLine("Oh, I'm looking for you John!");
 }
-	Console.WriteLine("Sorry, I thought you're John.");
+Console.WriteLine("Sorry, I thought you're John.");
 ```
 
 #### ผลลัพธ์
