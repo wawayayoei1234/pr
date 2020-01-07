@@ -11,7 +11,7 @@
 
 ### การใช้และวิธีเขียน `if-else-if`
 
-![photo](https://scontent.fkkc2-1.fna.fbcdn.net/v/t1.15752-9/81345507_468088657189752_2210022799941042176_n.png?_nc_cat=108&_nc_eui2=AeEoyzTQonT0EJu8S5vVYQojF6ivSgPl1FQo-7EBGS1WAPzsiaXHLiS8f45tjFqMcVVnKUgIy7KuxycaqpF7KZxvWl9ppjsy0HabiOtERe5hSQ&_nc_oc=AQke_FyOsD_IeUfyJJ5STmKnyQOYkwEkDg1SWsezjm_K34nSUphqafqPbI5c2pgoZL8&_nc_ht=scontent.fkkc2-1.fna&oh=8d18fe74da10641a787fff31fb35a5b3&oe=5EB462D3)
+![photo](https://scontent.fkkc2-1.fna.fbcdn.net/v/t1.15752-9/81353008_531141174160000_8947493479840219136_n.png?_nc_cat=111&_nc_eui2=AeHz4e2SJoiBEMb0oTph-WmQlSKbrWYJxuvcs159YsigCih-b-uPVHvoHJkDcl4GgQVtXPycRjxGGxnQbQ4W3sg5RDkSEDCmqV09CYC4Ukrj5w&_nc_oc=AQnCkmReF5ksq9G-Do-45-IBYPRKffovlUGrITdTQu28DZiBEt2ZFlfQE9r3SsXH5oI&_nc_ht=scontent.fkkc2-1.fna&oh=00fda152368aacf8998122e72615f355&oe=5E990340)
 
 ---
 
