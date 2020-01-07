@@ -81,7 +81,7 @@ if (score > 80){
 
 ### การใช้และวิธีเขียน `if` ซ้อน `if`
 
-![](https://scontent.fkkc2-1.fna.fbcdn.net/v/t1.15752-9/81353008_531141174160000_8947493479840219136_n.png?_nc_cat=111&_nc_eui2=AeHz4e2SJoiBEMb0oTph-WmQlSKbrWYJxuvcs159YsigCih-b-uPVHvoHJkDcl4GgQVtXPycRjxGGxnQbQ4W3sg5RDkSEDCmqV09CYC4Ukrj5w&_nc_oc=AQnCkmReF5ksq9G-Do-45-IBYPRKffovlUGrITdTQu28DZiBEt2ZFlfQE9r3SsXH5oI&_nc_ht=scontent.fkkc2-1.fna&oh=00fda152368aacf8998122e72615f355&oe=5E990340)
+![](https://scontent.fkkc2-1.fna.fbcdn.net/v/t1.15752-9/82279136_1452766241548252_6635180428812615680_n.png?_nc_cat=107&_nc_eui2=AeHfkYz2wGt9leBNmkGMJS73zu4iOpQ_Ue9mGDN5xdCAlqFENrx8120tkJ5qY3akPvJ8KZvvAauEdrXBTmNiIcfyagE3_vWzWCXkRtcW0QWTiw&_nc_oc=AQlL6zwTc49aX-GzzdA9DKYDX1rwvAOn5SDsv8vjVlV82QmWPqaEjjon2w3sWx4VHAI&_nc_ht=scontent.fkkc2-1.fna&oh=233903f130dda62c875056bc654c9fb7&oe=5EB13395)
 
 ---
 
