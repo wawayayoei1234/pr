@@ -36,7 +36,7 @@ amount = vat > 0.0 ? price * (100 + vat) / 100 : price;
 ### ตัวอย่างที่ 2
 
 ```csharp
-var vat = 0.0;
+var vat = 1.0;
 var price = 1000;
 
 amount = vat > 0.0 ? price * (100 + vat) / 100 : price;
@@ -45,5 +45,5 @@ amount = vat > 0.0 ? price * (100 + vat) / 100 : price;
 #### ผลลัพธ์
 
 ```csharp
-1000
+1010
 ```
