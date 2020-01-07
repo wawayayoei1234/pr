@@ -142,10 +142,3 @@ if (money == "yes"){
 ```csharp
 No Money
 ```
-
----
-
-### เปรียบเทียบระหว่าง 
-### if-else-if และ if ซ้อน if
-
-![photo](https://sv1.picz.in.th/images/2020/01/06/RB9DWb.jpg)
