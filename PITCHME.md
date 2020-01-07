@@ -100,10 +100,3 @@ if (name == "John"){
 Oh, I'm looking for you John!
 Sorry, I thought you're John.
 ```
-
----
-
-### เปรียบเทียบระหว่าง
-### if และ if-else
-
-![เปรียบเทียบ]()
