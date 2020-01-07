@@ -5,7 +5,7 @@
 ### หัวเรื่อง
 
 
-*  การใช้และการเขียน`Ternary` 
+*  การใช้และการเขียน `Ternary` 
 
 
 ---
@@ -24,7 +24,7 @@ result = condition ? valueIfTrue: valueIfFalse;
 var vat = 7.0;
 var price = 1000;
 
- amount = vat > 0.0 ? price * (100 + vat) / 100 : price;
+amount = vat > 0.0 ? price * (100 + vat) / 100 : price;
 ```
 
 #### ผลลัพธ์
@@ -39,7 +39,7 @@ var price = 1000;
 var vat = 0.0;
 var price = 1000;
 
- amount = vat > 0.0 ? price * (100 + vat) / 100 : price;
+amount = vat > 0.0 ? price * (100 + vat) / 100 : price;
 ```
 
 #### ผลลัพธ์
