@@ -106,7 +106,7 @@ var name = "John";
 var gender = "man";
 
 if (name == "John"){
-	if (gender == man){
+	if (gender == "man"){
 		Console.WriteLine("Hello Mr.John");
 	}else{
 		Console.WriteLine("Hello Ms.John");
