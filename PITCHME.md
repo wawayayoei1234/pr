@@ -80,7 +80,7 @@ price * (100 + vat) / 100 : price;
 ```csharp
 var vat = 0.0;
 var price = 1000;
-double amount = 0;
+    double amount = 0;
 
 if (vat > 0.0){
     amount = price * (100 + vat) / 100;
