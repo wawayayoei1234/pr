@@ -107,7 +107,7 @@ Sorry, I thought you're John.
 @snap[north span-50]
 #### เปรียบเทียบระหว่าง 
 #### `if-else` และ `if`
-@snaped
+@snapend
 
 @snap[west span-50]
 ```csharp
@@ -119,7 +119,7 @@ if (name == "John"){
 	Console.WriteLine("Sorry, I thought you're John.");
 }
 ```
-@snaped
+@snapend
 
 @snap[east span-50]
 ```csharp
@@ -130,4 +130,4 @@ if (name == "John"){
 }
 Console.WriteLine("Sorry, I thought you're John.");
 ```
-@snaped
+@snapend
