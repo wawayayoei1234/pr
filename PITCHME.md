@@ -54,11 +54,12 @@ var amount = vat > 0.0 ? price * (100 + vat) / 100 : price;
 
 #### เปรียบเทียบระหว่าง
 
-#### `Ternary` และ `if-else`
+#### `Ternary` 
+#### และ `if-else`
 
 @snapend
 
-@snap[north-east span-60 text-center]
+@snap[north-east span-80 text-center]
 
 `Ternary`
 
