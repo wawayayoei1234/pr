@@ -1,4 +1,3 @@
-
 ## if-else และ if
 
 ---
@@ -104,13 +103,18 @@ Sorry, I thought you're John.
 
 ---
 
-@snap[north span-50 text-center]
-#### เปรียบเทียบระหว่าง 
+@snap[west span-40 text-center]
+
+### GraphQL
+
+#### เปรียบเทียบระหว่าง
+
 #### `if-else` และ `if`
+
 @snapend
 
-@snap[west text-center]
-#### `if-else`
+@snap[north-east span-40 text-08]
+
 ```csharp
 var name = "John";
 
@@ -120,10 +124,15 @@ if (name == "John"){
 	Console.WriteLine("Sorry, I thought you're John.");
 }
 ```
+
 @snapend
 
-@snap[east text-center]
-#### `if`
+@snap[east span-40 text-08]
+
+@snapend
+
+@snap[south-east span-40 text-08]
+
 ```csharp
 var name = "John";
 
@@ -132,4 +141,5 @@ if (name == "John"){
 }
 Console.WriteLine("Sorry, I thought you're John.");
 ```
+
 @snapend
