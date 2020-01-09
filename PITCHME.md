@@ -113,7 +113,7 @@ Sorry, I thought you're John.
 
 @snapend
 
-@snap[north-east span-40 text-08]
+@snap[north-east text-08]
 
 ```csharp
 var name = "John";
@@ -127,11 +127,7 @@ if (name == "John"){
 
 @snapend
 
-@snap[east span-40 text-08]
-
-@snapend
-
-@snap[south-east span-40 text-08]
+@snap[south-east text-08]
 
 ```csharp
 var name = "John";
