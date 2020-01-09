@@ -148,8 +148,8 @@ Hello Ms.John
 @snap[west span-40 text-center]
 
 #### เปรียบเทียบระหว่าง
-
-#### if-else-if และ if ซ้อน if
+#### if-else-if 
+#### และ if ซ้อน if
 
 @snapend
 
@@ -158,14 +158,14 @@ Hello Ms.John
 `if-else-if`
 
 ```csharp
-var score = 81;
-
-if (score > 80){
-	Console.WriteLine("A");
-}else if (score > 70){
-	Console.WriteLine("B");
+if (เงื่อนไข A){
+	// ทำในวงเล็บเมื่อเงื่อนไข A เป็นจริง
+}else if (เงื่อนไข B){
+	// ทำในวงเล็บเมื่อเงื่อนไข B เป็นจริง
+}else if (เงื่อนไข C){
+	// ทำในวงเล็บเมื่อเงื่อนไข C เป็นจริง
 }else{
-	Console.WriteLine("F");
+	// ทำในวงเล็บเมื่อไม่มีเงื่อนไขใดเป็นจริง
 }
 ```
 
@@ -176,14 +176,11 @@ if (score > 80){
 `if ซ้อน if`
 
 ```csharp
-var name = "John";
-var gender = "man";
-
-if (name == "John"){
-	if (gender == "man"){
-		Console.WriteLine("Hello Mr.John");
+if (เงื่อนไข A){
+	if (เงื่อนไข B){
+		// ทำในวงเล็บเมื่อเงื่อนไข B เป็นจริง
 	}else{
-		Console.WriteLine("Hello Ms.John");
+		// ทำในวงเล็บเมื่อไม่มีเงื่อนไขใดเป็นจริง
 	}
 }
 ```
