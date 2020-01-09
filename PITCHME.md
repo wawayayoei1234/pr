@@ -105,15 +105,13 @@ Oh,i'm sorry.
 
 @snap[west span-40 text-center]
 
-### GraphQL
-
 #### เปรียบเทียบระหว่าง
 
 #### `if-else` และ `if`
 
 @snapend
 
-@snap[north-east span-80 text-center]
+@snap[north-east span-60 text-center]
 
 `if-else`
 
@@ -129,7 +127,7 @@ if (name == "John"){
 
 @snapend
 
-@snap[south-east span-80 text-center]
+@snap[south-east span-60 text-center]
 
 `if`
 
