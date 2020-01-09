@@ -103,7 +103,7 @@ Oh,i'm sorry.
 
 ---
 
-@snap[west span-60 text-08]
+@snap[west span-60 text-center]
 
 ### เปรียบเทียบระหว่าง
 
