@@ -104,12 +104,12 @@ Sorry, I thought you're John.
 
 ---
 
-@snap[north span-50]
+@snap[north span-50 text-center]
 #### เปรียบเทียบระหว่าง 
 #### `if-else` และ `if`
 @snapend
 
-@snap[west span-50]
+@snap[west span-50 text-center]
 #### `if-else`
 ```csharp
 var name = "John";
@@ -122,7 +122,7 @@ if (name == "John"){
 ```
 @snapend
 
-@snap[east span-50]
+@snap[east span-50 text-center]
 #### `if`
 ```csharp
 var name = "John";
