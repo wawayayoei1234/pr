@@ -10,7 +10,7 @@
 
 ---
 
-###  การใช้และการเขียน `Ternary` 
+###  การใช้และวิธีเขียน `Ternary` 
 
 ```csharp
 var result = condition ? valueIfTrue: valueIfFalse;
