@@ -59,7 +59,7 @@ var amount = vat > 0.0 ? price * (100 + vat) / 100 : price;
 
 @snapend
 
-@snap[north-east span-80 text-center]
+@snap[north-east span-60 text-center]
 
 `Ternary`
 
@@ -67,7 +67,8 @@ var amount = vat > 0.0 ? price * (100 + vat) / 100 : price;
 var vat = 0.0;
 var price = 1000;
 
-var amount = vat > 0.0 ? price * (100 + vat) / 100 : price;
+var amount = vat > 0.0 ? 
+price * (100 + vat) / 100 : price;
 ```
 
 @snapend
