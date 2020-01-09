@@ -142,3 +142,52 @@ if (name == "John"){
 ```csharp
 Hello Ms.John
 ```
+
+---
+
+@snap[west span-40 text-center]
+
+#### เปรียบเทียบระหว่าง
+
+#### if-else-if และ if ซ้อน if
+
+@snapend
+
+@snap[north-east span-60 text-center]
+
+`if-else-if`
+
+```csharp
+var score = 81;
+
+if (score > 80){
+	Console.WriteLine("A");
+}else if (score > 70){
+	Console.WriteLine("B");
+}else if (score > 60){
+	Console.WriteLine("C");
+}else{
+	Console.WriteLine("F");
+}
+```
+
+@snapend
+
+@snap[south-east span-60 text-center]
+
+`if ซ้อน if`
+
+```csharp
+var name = "John";
+var gender = "man";
+
+if (name == "John"){
+	if (gender == "man"){
+		Console.WriteLine("Hello Mr.John");
+	}else{
+		Console.WriteLine("Hello Ms.John");
+	}
+}
+```
+
+@snapend
