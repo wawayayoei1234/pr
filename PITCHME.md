@@ -105,9 +105,9 @@ Oh,i'm sorry.
 
 @snap[west span-40 text-center]
 
-#### เปรียบเทียบระหว่าง
+### เปรียบเทียบระหว่าง
 
-#### `if-else` และ `if`
+### `if-else` และ `if`
 
 @snapend
 
