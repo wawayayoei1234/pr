@@ -59,12 +59,13 @@ var amount = vat > 0.0 ? price * (100 + vat) / 100 : price;
 
 @snapend
 
-@snap[north-east span-80 text-center]
+@snap[north-east span-60 text-center]
 
 `Ternary`
 
 ```csharp
-var result = condition ? valueIfTrue: valueIfFalse;
+var result = condition ? 
+    valueIfTrue: valueIfFalse;
 ```
 
 @snapend
