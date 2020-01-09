@@ -126,10 +126,10 @@ Hello Mr.John
 
 ```csharp
 var name = "John";
-var gender = "man";
+var gender = "woman";
 
 if (name == "John"){
-	if (gender == woman){
+	if (gender == "man"){
 		Console.WriteLine("Hello Mr.John");
 	}else{
 		Console.WriteLine("Hello Ms.John");
