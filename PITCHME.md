@@ -103,12 +103,8 @@ Sorry, I thought you're John.
 
 ---
 
-@snap[west span-40 text-center]
-
-### GraphQL
-
+@snap[west span-40 text-08]
 #### เปรียบเทียบระหว่าง
-
 #### `if-else` และ `if`
 
 @snapend
