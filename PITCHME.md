@@ -114,7 +114,7 @@ Oh,i'm sorry.
 
 @snapend
 
-@snap[north-east span-40 text-08]
+@snap[north-east text-08]
 
 `if-else`
 
@@ -130,7 +130,7 @@ if (name == "John"){
 
 @snapend
 
-@snap[south-east span-40 text-08]
+@snap[south-east text-08]
 
 `if`
 
