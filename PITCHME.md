@@ -116,12 +116,10 @@ Oh,i'm sorry.
 `if-else`
 
 ```csharp
-var name = "John";
-
-if (name == "John"){
-	Console.WriteLine("Hello John!");
+if (เงื่อนไข){
+	// ทำในวงเล็บเมื่อเงื่อนไขเป็นจริง
 } else{
-	Console.WriteLine("Oh,i'm sorry.");
+	// ทำในวงเล็บเมื่อไม่มีเงื่อนไขเป็นจริง
 }
 ```
 
@@ -132,12 +130,9 @@ if (name == "John"){
 `if`
 
 ```csharp
-var name = "John";
-
-if (name == "John"){
-	Console.WriteLine("Hello John!");
+if (เงื่อนไข){
+	// ทำเมื่อเงื่อนไขเป็นจริง
 }
-Console.WriteLine("Oh,i'm sorry.");
 ```
 
 @snapend
