@@ -87,7 +87,6 @@ if (vat > 0.0){
 } else{
     amount = price;
 }
-Console.Writeline(amount);
 ```
 
 @snapend
