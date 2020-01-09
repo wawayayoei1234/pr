@@ -90,9 +90,8 @@ var name = "John";
 
 if (name == "John"){
 	Console.WriteLine("Hello John!");
-} else{
-	Console.WriteLine("Oh,i'm sorry.");
 }
+Console.WriteLine("Oh,i'm sorry.");
 ```
 
 #### ผลลัพธ์
@@ -114,7 +113,7 @@ Oh,i'm sorry.
 
 @snapend
 
-@snap[north-east text-08]
+@snap[north-east span-80 text-center]
 
 `if-else`
 
@@ -130,7 +129,7 @@ if (name == "John"){
 
 @snapend
 
-@snap[south-east text-08]
+@snap[south-east span-80 text-center]
 
 `if`
 
@@ -139,9 +138,8 @@ var name = "John";
 
 if (name == "John"){
 	Console.WriteLine("Hello John!");
-} else{
-	Console.WriteLine("Oh,i'm sorry.");
 }
+Console.WriteLine("Oh,i'm sorry.");
 ```
 
 @snapend
