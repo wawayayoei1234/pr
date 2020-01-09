@@ -1,3 +1,4 @@
+
 ## if-else และ if
 
 ---
@@ -100,3 +101,33 @@ Console.WriteLine("Sorry, I thought you're John.");
 Oh, I'm looking for you John!
 Sorry, I thought you're John.
 ```
+
+---
+
+@snap[north span-50]
+#### เปรียบเทียบระหว่าง 
+#### `if-else` และ `if`
+@snaped
+
+@snap[west span-50]
+```csharp
+var name = "John";
+
+if (name == "John"){
+	Console.WriteLine("Oh, I'm looking for you John!");
+} else{
+	Console.WriteLine("Sorry, I thought you're John.");
+}
+```
+@snaped
+
+@snap[east span-50]
+```csharp
+var name = "John";
+
+if (name == "John"){
+	Console.WriteLine("Oh, I'm looking for you John!");
+}
+Console.WriteLine("Sorry, I thought you're John.");
+```
+@snaped
