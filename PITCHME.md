@@ -102,14 +102,14 @@ if (เงื่อนไข A){
 ### ตัวอย่างที่ 1
 
 ```csharp
-var money = "yes";
-var price = 20;
+var name = "John";
+var gender = "man";
 
-if (money == "yes"){
-	if (price == 20){
-		Console.WriteLine("You can buy");
+if (name == "John"){
+	if (gender == man){
+		Console.WriteLine("Hello Mr.John");
 	}else{
-		Console.WriteLine("No Money");
+		Console.WriteLine("Hello Ms.John");
 	}
 }
 ```
@@ -117,7 +117,7 @@ if (money == "yes"){
 #### ผลลัพธ์
 
 ```csharp
-You can buy
+Hello Mr.John
 ```
 
 +++
@@ -125,14 +125,14 @@ You can buy
 ### ตัวอย่างที่ 2
 
 ```csharp
-var money = "yes";
-var price = 30;
+var name = "John";
+var gender = "man";
 
-if (money == "yes"){
-	if (price == 20){
-		Console.WriteLine("You can buy");
+if (name == "John"){
+	if (gender == woman){
+		Console.WriteLine("Hello Mr.John");
 	}else{
-		Console.WriteLine("No money");
+		Console.WriteLine("Hello Ms.John");
 	}
 }
 ```
@@ -140,5 +140,5 @@ if (money == "yes"){
 #### ผลลัพธ์
 
 ```csharp
-No Money
+Hello Ms.John
 ```
