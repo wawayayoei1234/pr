@@ -110,6 +110,7 @@ Sorry, I thought you're John.
 @snapend
 
 @snap[west span-50]
+#### `if-else`
 ```csharp
 var name = "John";
 
@@ -122,6 +123,7 @@ if (name == "John"){
 @snapend
 
 @snap[east span-50]
+#### `if`
 ```csharp
 var name = "John";
 
