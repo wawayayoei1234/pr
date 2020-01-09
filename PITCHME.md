@@ -64,11 +64,7 @@ var amount = vat > 0.0 ? price * (100 + vat) / 100 : price;
 `Ternary`
 
 ```csharp
-var vat = 0.0;
-var price = 1000;
-
-var amount = vat > 0.0 ? 
-    price * (100 + vat) / 100 : price;
+var result = condition ? valueIfTrue: valueIfFalse;
 ```
 
 @snapend
@@ -78,14 +74,10 @@ var amount = vat > 0.0 ?
 `if-else`
 
 ```csharp
-var vat = 0.0;
-var price = 1000;
-double amount = 0;
-
-if (vat > 0.0){
-    amount = price * (100 + vat) / 100;
+if (เงื่อนไข){
+    // ทำในวงเล็บเมื่อเงื่อนไขเป็นจริง
 } else{
-    amount = price;
+    // ทำในวงเล็บเมื่อไม่มีเงื่อนไขเป็นจริง
 }
 ```
 
