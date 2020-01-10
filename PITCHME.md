@@ -18,13 +18,13 @@
 ### วิธีเขียน `if-else-if`
 
 ```csharp
-if (เงื่อนไข A){
+if (เงื่ นไข A) {
 	// ทำในวงเล็บเมื่อเงื่อนไข A เป็นจริง
-}else if (เงื่อนไข B){
+} else if (เงื่อนไข B) {
 	// ทำในวงเล็บเมื่อเงื่อนไข B เป็นจริง
-}else if (เงื่อนไข C){
+} else if (เงื่อนไข C) {
 	// ทำในวงเล็บเมื่อเงื่อนไข C เป็นจริง
-}else{
+} else {
 	// ทำในวงเล็บเมื่อไม่มีเงื่อนไขใดเป็นจริง
 }
 ```
@@ -36,14 +36,14 @@ if (เงื่อนไข A){
 ```csharp
 var score = 81;
 
-if (score > 80){
-	Console.WriteLine("A");
-}else if (score > 70){
-	Console.WriteLine("B");
-}else if (score > 60){
-	Console.WriteLine("C");
-}else{
-	Console.WriteLine("F");
+if (score > 80) {
+	Console.WriteLine ("A");
+} else if (score > 70) {
+	Console.WriteLine ("B");
+} else if (score > 60) {
+	Console.WriteLine ("C");
+} else {
+	Console.WriteLine ("F");
 }
 ```
 
@@ -60,14 +60,14 @@ A
 ```csharp
 var score = 75;
 
-if (score > 80){
-	Console.WriteLine("A");
-}else if (score > 70){
-	Console.WriteLine("B");
-}else if (score > 60){
-	Console.WriteLine("C");
-}else{
-	Console.WriteLine("F");
+if (score > 80) {
+	Console.WriteLine ("A");
+} else if (score > 70) {
+	Console.WriteLine ("B");
+} else if (score > 60) {
+	Console.WriteLine ("C");
+} else {
+	Console.WriteLine ("F");
 }
 ```
 
@@ -88,12 +88,12 @@ if (score > 80){
 ### วิธีเขียน `if` ซ้อน `if`
 
 ```csharp
-if (เงื่อนไข A){
-	if (เงื่อนไข B){
-		// ทำในวงเล็บเมื่อเงื่อนไข B เป็นจริง
-	}else{
-		// ทำในวงเล็บเมื่อไม่มีเงื่อนไขใดเป็นจริง
-	}
+if (เงื่ อนไข A) {
+    if (เงื่ อนไข B) {
+        // ทำในวงเล็บเมื่อเงื่อนไข B เป็นจริง
+    } else {
+        // ทำในวงเล็บเมื่อไม่มีเงื่อนไขใดเป็นจริง
+    }
 }
 ```
 
@@ -105,12 +105,12 @@ if (เงื่อนไข A){
 var name = "John";
 var gender = "man";
 
-if (name == "John"){
-	if (gender == "man"){
-		Console.WriteLine("Hello Mr.John");
-	}else{
-		Console.WriteLine("Hello Ms.John");
-	}
+if (name == "John") {
+    if (gender == "man") {
+        Console.WriteLine ("Hello Mr.John");
+    } else {
+        Console.WriteLine ("Hello Ms.John");
+    }
 }
 ```
 
@@ -128,12 +128,12 @@ Hello Mr.John
 var name = "John";
 var gender = "woman";
 
-if (name == "John"){
-	if (gender == "man"){
-		Console.WriteLine("Hello Mr.John");
-	}else{
-		Console.WriteLine("Hello Ms.John");
-	}
+if (name == "John") {
+    if (gender == "man") {
+        Console.WriteLine ("Hello Mr.John");
+    } else {
+        Console.WriteLine ("Hello Ms.John");
+    }
 }
 ```
 
@@ -145,46 +145,34 @@ Hello Ms.John
 
 ---
 
-@snap[west span-40 text-center]
-
 #### เปรียบเทียบระหว่าง
 #### if-else-if 
 #### และ if ซ้อน if
 
-@snapend
-
-@snap[north-east span-60 text-center]
-
 `if-else-if`
 
 ```csharp
-if (เงื่อนไข A){
-	// ทำในวงเล็บเมื่อเงื่อนไข A เป็นจริง
-}else if (เงื่อนไข B){
-	// ทำในวงเล็บเมื่อเงื่อนไข B เป็นจริง
-}else if (เงื่อนไข C){
-	// ทำในวงเล็บเมื่อเงื่อนไข C เป็นจริง
-}else{
-	// ทำในวงเล็บเมื่อไม่มีเงื่อนไขใดเป็นจริง
+if (เงื่อนไข A) {
+    // ทำในวงเล็บเมื่อเงื่อนไข A เป็นจริง
+} else if (เงื่อนไข B) {
+    // ทำในวงเล็บเมื่อเงื่อนไข B เป็นจริง
+} else if (เงื่อนไข C) {
+    // ทำในวงเล็บเมื่อเงื่อนไข C เป็นจริง
+} else {
+    // ทำในวงเล็บเมื่อไม่มีเงื่อนไขใดเป็นจริง
 }
 ```
-
-@snapend
-
-@snap[south-east span-60 text-center]
 
 `if ซ้อน if`
 
 ```csharp
-if (เงื่อนไข A){
-	if (เงื่อนไข B){
-	    if (เงื่อนไข C){
-		// ทำในวงเล็บเมื่อเงื่อนไข C เป็นจริง
-	    } else{
-		// ทำในวงเล็บเมื่อไม่มีเงื่อนไขใดเป็นจริง
-	    }
-	}
+if (เงื่ อนไข A) {
+    if (เงื่ อนไข B) {
+        if (เงื่ อนไข C) {
+            // ทำในวงเล็บเมื่อเงื่อนไข C เป็นจริง
+        } else {
+            // ทำในวงเล็บเมื่อไม่มีเงื่อนไขใดเป็นจริง
+        }
+    }
 }
 ```
-
-@snapend
