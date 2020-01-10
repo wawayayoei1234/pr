@@ -62,7 +62,7 @@ if (name == "John") {
 #### ผลลัพธ์
 
 ```text
-Oh,i'm sorry.
+Sorry, I thought your John
 ```
 
 ---
