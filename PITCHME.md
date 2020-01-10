@@ -33,9 +33,9 @@ if (เงื่อนไข) {
 var name = "John";
 
 if (name == "John") {
-Console.WriteLine ("Hello John!");
+	Console.WriteLine ("Hello John!");
 } else {
-Console.WriteLine ("Oh,i'm sorry.");
+	Console.WriteLine ("Oh,i'm sorry.");
 }
 ```
 
@@ -53,9 +53,9 @@ Hello John!
 var name = "Mark";
 
 if (name == "John") {
-Console.WriteLine ("Hello John!");
+	Console.WriteLine ("Hello John!");
 } else {
-Console.WriteLine ("Oh,i'm sorry.");
+	Console.WriteLine ("Oh,i'm sorry.");
 }
 ```
 
