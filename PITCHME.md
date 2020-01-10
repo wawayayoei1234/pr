@@ -18,10 +18,10 @@
 ### วิธีเขียน `if-else`
 
 ```csharp
-if (เงื่อนไข){
-	// ทำในวงเล็บเมื่อเงื่อนไขเป็นจริง
-} else{
-	// ทำในวงเล็บเมื่อไม่มีเงื่อนไขเป็นจริง
+if (เงื่ อนไข) {
+// ทำในวงเล็บเมื่อเงื่อนไขเป็นจริง
+} else {
+// ทำในวงเล็บเมื่อไม่มีเงื่อนไขเป็นจริง
 }
 ```
 
@@ -32,10 +32,10 @@ if (เงื่อนไข){
 ```csharp
 var name = "John";
 
-if (name == "John"){
-	Console.WriteLine("Hello John!");
-} else{
-	Console.WriteLine("Oh,i'm sorry.");
+if (name == "John") {
+Console.WriteLine ("Hello John!");
+} else {
+Console.WriteLine ("Oh,i'm sorry.");
 }
 ```
 
@@ -52,10 +52,10 @@ Hello John!
 ```csharp
 var name = "Mark";
 
-if (name == "John"){
-	Console.WriteLine("Hello John!");
-} else{
-	Console.WriteLine("Oh,i'm sorry.");
+if (name == "John") {
+Console.WriteLine ("Hello John!");
+} else {
+Console.WriteLine ("Oh,i'm sorry.");
 }
 ```
 
@@ -76,7 +76,7 @@ Oh,i'm sorry.
 ### วิธีเขียน `if`
 
 ```csharp
-if (เงื่อนไข){
+if (เงื่ อนไข) {
 	// ทำเมื่อเงื่อนไขเป็นจริง
 }
 ```
@@ -88,10 +88,10 @@ if (เงื่อนไข){
 ```csharp
 var name = "John";
 
-if (name == "John"){
-	Console.WriteLine("Hello John!");
+if (name == "John") {
+Console.WriteLine ("Hello John!");
 }
-Console.WriteLine("Oh,i'm sorry.");
+Console.WriteLine ("Oh,i'm sorry.");
 ```
 
 #### ผลลัพธ์
@@ -103,15 +103,9 @@ Oh,i'm sorry.
 
 ---
 
-@snap[west span-40 text-center]
-
 #### เปรียบเทียบระหว่าง
 
 #### `if-else` และ `if`
-
-@snapend
-
-@snap[north-east span-60 text-center]
 
 `if-else`
 
@@ -123,10 +117,6 @@ if (เงื่อนไข){
 }
 ```
 
-@snapend
-
-@snap[south-east span-60 text-center]
-
 `if`
 
 ```csharp
@@ -134,5 +124,3 @@ if (เงื่อนไข){
 	// ทำเมื่อเงื่อนไขเป็นจริง
 }
 ```
-
-@snapend
