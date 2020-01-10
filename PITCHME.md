@@ -50,9 +50,7 @@ var amount = vat > 0.0 ? price * (100 + vat) / 100 : price;
 
 ---
 
-#### เปรียบเทียบระหว่าง
-#### `Ternary` 
-#### และ `if-else`
+#### เปรียบเทียบระหว่าง `Ternary` และ `if-else`
 
 `Ternary`
 
