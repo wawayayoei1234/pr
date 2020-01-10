@@ -50,16 +50,9 @@ var amount = vat > 0.0 ? price * (100 + vat) / 100 : price;
 
 ---
 
-@snap[west span-40 text-center]
-
 #### เปรียบเทียบระหว่าง
-
 #### `Ternary` 
 #### และ `if-else`
-
-@snapend
-
-@snap[north-east span-60 text-center]
 
 `Ternary`
 
@@ -68,18 +61,12 @@ var result = condition ?
     valueIfTrue: valueIfFalse;
 ```
 
-@snapend
-
-@snap[south-east span-60 text-center]
-
 `if-else`
 
 ```csharp
-if (เงื่อนไข){
+if (เงื่อนไข) {
     // ทำในวงเล็บเมื่อเงื่อนไขเป็นจริง
-} else{
+} else {
     // ทำในวงเล็บเมื่อไม่มีเงื่อนไขเป็นจริง
 }
 ```
-
-@snapend
