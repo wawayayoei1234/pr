@@ -109,7 +109,7 @@ if (name == "John") {
     if (gender == "man") {
         Console.WriteLine ("Hello Mr.John");
     } else {
-        Console.WriteLine ("Hello Ms.John");
+        Console.WriteLine ("Sorry, I thought your John");
     }
 }
 ```
@@ -132,7 +132,7 @@ if (name == "John") {
     if (gender == "man") {
         Console.WriteLine ("Hello Mr.John");
     } else {
-        Console.WriteLine ("Hello Ms.John");
+        Console.WriteLine ("Sorry, I thought your John");
     }
 }
 ```
@@ -140,7 +140,7 @@ if (name == "John") {
 #### ผลลัพธ์
 
 ```csharp
-Hello Ms.John
+Sorry, I thought your John
 ```
 
 ---
