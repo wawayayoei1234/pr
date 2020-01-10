@@ -35,7 +35,7 @@ var name = "John";
 if (name == "John") {
 	Console.WriteLine ("Hello John!");
 } else {
-	Console.WriteLine ("Oh,i'm sorry.");
+	Console.WriteLine ("Sorry, I thought your John");
 }
 ```
 
@@ -55,7 +55,7 @@ var name = "Mark";
 if (name == "John") {
 	Console.WriteLine ("Hello John!");
 } else {
-	Console.WriteLine ("Oh,i'm sorry.");
+	Console.WriteLine ("Sorry, I thought your John");
 }
 ```
 
@@ -91,14 +91,14 @@ var name = "John";
 if (name == "John") {
 	Console.WriteLine ("Hello John!");
 }
-Console.WriteLine ("Oh,i'm sorry.");
+Console.WriteLine ("Sorry, I thought your John");
 ```
 
 #### ผลลัพธ์
 
 ```text
 Hello John!
-Oh,i'm sorry.
+Sorry, I thought your John
 ```
 
 ---
